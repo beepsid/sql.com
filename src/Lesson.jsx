@@ -5,7 +5,6 @@ import { compareResults, detectMistake } from './grader'
 import './Lesson.css'
 
 export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange, progress }) {
-  const [query, setQuery] = useState('')
   const editorRef = useRef(null)
   const [results, setResults] = useState([])
   const [columns, setColumns] = useState([])
@@ -22,13 +21,22 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
 
   // Reset state when lesson changes
   useEffect(() => {
-    setQuery('')
     setResults([])
     setColumns([])
     setFeedback(null)
     setError(null)
     setShowHint(false)
     setShowExplanation(false)
+    // Clear editor
+    if (editorRef.current?.view) {
+      editorRef.current.view.dispatch({
+        changes: {
+          from: 0,
+          to: editorRef.current.view.state.doc.length,
+          insert: ''
+        }
+      })
+    }
   }, [lesson.id])
 
   const handleRun = async () => {
@@ -177,13 +185,25 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
 
           <CodeMirror
             ref={editorRef}
-            value={query}
             height="250px"
             extensions={[sql()]}
-            onChange={(val) => setQuery(val)}
             onKeyDown={handleKeyDown}
             className="code-editor"
             theme="light"
+            basicSetup={{
+              lineNumbers: true,
+              highlightActiveLineGutter: true,
+              foldGutter: true,
+              dropCursor: true,
+              allowMultipleSelections: true,
+              indentOnInput: true,
+              bracketMatching: true,
+              closeBrackets: true,
+              autocompletion: true,
+              rectangularSelection: true,
+              highlightSelectionMatches: true,
+              searchKeymap: true,
+            }}
           />
 
           <div className="hint-text">
