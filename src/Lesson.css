@@ -215,17 +215,25 @@
   cursor: not-allowed;
 }
 
-.code-editor {
+.sql-editor {
+  width: 100%;
+  min-height: 200px;
+  padding: 12px;
   border: 1px solid #dee2e6;
   border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
-.code-editor :global(.cm-editor) {
   font-family: 'Monaco', 'Courier New', monospace;
   font-size: 13px;
-  height: 250px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  resize: vertical;
+  background: white;
+  color: #333;
+}
+
+.sql-editor:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
 }
 
 .hint-text {
