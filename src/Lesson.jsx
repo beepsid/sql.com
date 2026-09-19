@@ -4,7 +4,7 @@ import { sql } from '@codemirror/lang-sql'
 import { compareResults, detectMistake } from './grader'
 import './Lesson.css'
 
-export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange }) {
+export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange, progress }) {
   const [query, setQuery] = useState('')
   const editorRef = useRef(null)
   const [results, setResults] = useState([])
@@ -14,6 +14,11 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
   const [executing, setExecuting] = useState(false)
   const [showHint, setShowHint] = useState(false)
   const [showExplanation, setShowExplanation] = useState(false)
+
+  // Guard against undefined progress
+  if (!progress || !progress.loaded) {
+    return <div className="lesson-container"><div style={{textAlign: 'center', padding: '40px'}}>Loading...</div></div>
+  }
 
   // Reset state when lesson changes
   useEffect(() => {
@@ -60,6 +65,13 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
           message: gradeResult.reason,
           mistakeType
         })
+
+        // Mark lesson complete if correct
+        if (gradeResult.correct) {
+          progress.markLessonComplete(lesson.id)
+        } else {
+          progress.recordAttempt(lesson.id)
+        }
       } else {
         setResults([])
         setColumns([])
@@ -99,6 +111,19 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
           <h1>{lesson.title}</h1>
           <p className="lesson-description">{lesson.description}</p>
         </div>
+
+        <div className="progress-bar-container">
+          <div className="progress-bar">
+            <div
+              className="progress-fill"
+              style={{ width: `${progress.getProgressStats(lessons.length).percentage}%` }}
+            ></div>
+          </div>
+          <p className="progress-text">
+            {progress.getProgressStats(lessons.length).completed} of {lessons.length} complete
+          </p>
+        </div>
+
         <div className="lesson-nav">
           <button
             onClick={() => onLessonChange(currentLessonIndex - 1)}
