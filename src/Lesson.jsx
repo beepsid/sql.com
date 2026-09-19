@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import CodeMirror from '@uiw/react-codemirror'
 import { sql } from '@codemirror/lang-sql'
 import { compareResults, detectMistake } from './grader'
@@ -14,6 +14,17 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
   const [executing, setExecuting] = useState(false)
   const [showHint, setShowHint] = useState(false)
   const [showExplanation, setShowExplanation] = useState(false)
+
+  // Reset state when lesson changes
+  useEffect(() => {
+    setQuery('')
+    setResults([])
+    setColumns([])
+    setFeedback(null)
+    setError(null)
+    setShowHint(false)
+    setShowExplanation(false)
+  }, [lesson.id])
 
   const handleRun = async () => {
     // Get query from either state or editor ref
