@@ -122,6 +122,12 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
 
         <div className="lesson-nav">
           <button
+            onClick={() => onLessonChange(null)}
+            className="nav-button"
+          >
+            ← Back to Dashboard
+          </button>
+          <button
             onClick={() => onLessonChange(currentLessonIndex - 1)}
             disabled={prevDisabled}
             className="nav-button"

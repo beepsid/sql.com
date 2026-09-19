@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useDuckDB } from './useDuckDB'
 import { useProgress } from './useProgress'
+import { Dashboard } from './Dashboard'
 import { Lesson } from './Lesson'
 import { lessons } from './lessons'
 import './App.css'
@@ -8,7 +9,7 @@ import './App.css'
 function App() {
   const { db, loading, error: dbError, executeQuery } = useDuckDB()
   const progress = useProgress()
-  const [currentLessonIndex, setCurrentLessonIndex] = useState(0)
+  const [currentLessonIndex, setCurrentLessonIndex] = useState(null)
 
   if (dbError) {
     return (
@@ -32,8 +33,6 @@ function App() {
     )
   }
 
-  const currentLesson = lessons[currentLessonIndex]
-
   if (!progress.loaded) {
     return (
       <div className="app">
@@ -43,6 +42,19 @@ function App() {
       </div>
     )
   }
+
+  // Show dashboard if no lesson selected, otherwise show lesson
+  if (currentLessonIndex === null) {
+    return (
+      <Dashboard
+        lessons={lessons}
+        progress={progress}
+        onSelectLesson={setCurrentLessonIndex}
+      />
+    )
+  }
+
+  const currentLesson = lessons[currentLessonIndex]
 
   return (
     <Lesson
