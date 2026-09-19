@@ -1,11 +1,9 @@
 import { useState, useRef, useEffect } from 'react'
-import CodeMirror from '@uiw/react-codemirror'
-import { sql } from '@codemirror/lang-sql'
 import { compareResults, detectMistake } from './grader'
 import './Lesson.css'
 
 export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange, progress }) {
-  const editorRef = useRef(null)
+  const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [columns, setColumns] = useState([])
   const [feedback, setFeedback] = useState(null)
@@ -21,32 +19,22 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
 
   // Reset state when lesson changes
   useEffect(() => {
+    setQuery('')
     setResults([])
     setColumns([])
     setFeedback(null)
     setError(null)
     setShowHint(false)
     setShowExplanation(false)
-    // Clear editor
-    if (editorRef.current?.view) {
-      editorRef.current.view.dispatch({
-        changes: {
-          from: 0,
-          to: editorRef.current.view.state.doc.length,
-          insert: ''
-        }
-      })
-    }
   }, [lesson.id])
 
   const handleRun = async () => {
-    // Get query from either state or editor ref
-    const currentQuery = editorRef.current?.view?.state?.doc?.toString() || query || ''
-
-    if (!currentQuery.trim()) {
+    if (!query?.trim()) {
       setError('Please enter a SQL query')
       return
     }
+
+    const currentQuery = query.trim()
 
     setError(null)
     setFeedback(null)
@@ -183,27 +171,13 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
             </button>
           </div>
 
-          <CodeMirror
-            ref={editorRef}
-            height="250px"
-            extensions={[sql()]}
+          <textarea
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
-            className="code-editor"
-            theme="light"
-            basicSetup={{
-              lineNumbers: true,
-              highlightActiveLineGutter: true,
-              foldGutter: true,
-              dropCursor: true,
-              allowMultipleSelections: true,
-              indentOnInput: true,
-              bracketMatching: true,
-              closeBrackets: true,
-              autocompletion: true,
-              rectangularSelection: true,
-              highlightSelectionMatches: true,
-              searchKeymap: true,
-            }}
+            className="sql-editor"
+            placeholder="Enter your SQL query here..."
+            spellCheck="false"
           />
 
           <div className="hint-text">
