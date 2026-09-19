@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { useDuckDB } from './useDuckDB'
+import { useProgress } from './useProgress'
 import { Lesson } from './Lesson'
 import { lessons } from './lessons'
 import './App.css'
 
 function App() {
   const { db, loading, error: dbError, executeQuery } = useDuckDB()
+  const progress = useProgress()
   const [currentLessonIndex, setCurrentLessonIndex] = useState(0)
 
   if (dbError) {
@@ -32,6 +34,16 @@ function App() {
 
   const currentLesson = lessons[currentLessonIndex]
 
+  if (!progress.loaded) {
+    return (
+      <div className="app">
+        <div className="loading-screen">
+          <h2>Loading...</h2>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <Lesson
       lesson={currentLesson}
@@ -40,6 +52,7 @@ function App() {
       lessons={lessons}
       currentLessonIndex={currentLessonIndex}
       onLessonChange={setCurrentLessonIndex}
+      progress={progress}
     />
   )
 }
