@@ -38,7 +38,7 @@ export function LearnSQL({ onSelectLesson, progress }) {
                 ))}
                 {topic.subtopics.length > 3 && <li className="more">+{topic.subtopics.length - 3} more</li>}
               </ul>
-              <button className="learn-button">
+              <button className="learn-button" onClick={() => onSelectLesson(idx)}>
                 Learn {topic.lessons || 1} Lesson{(topic.lessons || 1) > 1 ? 's' : ''}
               </button>
             </div>
