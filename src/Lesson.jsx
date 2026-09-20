@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { compareResults, detectMistake } from './grader'
 import './Lesson.css'
 
-export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange, progress }) {
+export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, onLessonChange, onBack, progress }) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [columns, setColumns] = useState([])
@@ -122,10 +122,10 @@ export function Lesson({ lesson, db, executeQuery, lessons, currentLessonIndex, 
 
         <div className="lesson-nav">
           <button
-            onClick={() => onLessonChange(null)}
+            onClick={onBack}
             className="nav-button"
           >
-            ← Back to Dashboard
+            ← Back to Topics
           </button>
           <button
             onClick={() => onLessonChange(currentLessonIndex - 1)}

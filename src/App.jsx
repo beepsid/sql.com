@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import { useDuckDB } from './useDuckDB'
 import { useProgress } from './useProgress'
-import { Dashboard } from './Dashboard'
+import { Navigation } from './Navigation'
+import { LandingPage } from './LandingPage'
+import { LearnSQL } from './LearnSQL'
+import { PracticeQuestions } from './PracticeQuestions.jsx'
 import { Lesson } from './Lesson'
 import { lessons } from './lessons'
 import './App.css'
@@ -9,7 +12,9 @@ import './App.css'
 function App() {
   const { db, loading, error: dbError, executeQuery } = useDuckDB()
   const progress = useProgress()
+  const [currentPage, setCurrentPage] = useState('home')
   const [currentLessonIndex, setCurrentLessonIndex] = useState(null)
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(null)
 
   if (dbError) {
     return (
@@ -22,50 +27,89 @@ function App() {
     )
   }
 
-  if (loading) {
+  if (loading || !progress.loaded) {
     return (
       <div className="app">
         <div className="loading-screen">
-          <h2>Loading SQL Playground...</h2>
-          <p>Setting up your in-memory database</p>
+          <h2>Loading Advanced SQL Platform...</h2>
+          <p>Setting up your learning environment</p>
         </div>
       </div>
     )
   }
 
-  if (!progress.loaded) {
+  const handleNavigate = (page) => {
+    setCurrentPage(page)
+    setCurrentLessonIndex(null)
+    setCurrentQuestionIndex(null)
+  }
+
+  const handleSelectLesson = (index) => {
+    setCurrentLessonIndex(index)
+    setCurrentPage('lesson')
+  }
+
+  const handleSelectQuestion = (index) => {
+    setCurrentQuestionIndex(index)
+    setCurrentPage('question')
+  }
+
+  const handleBackToPage = (page) => {
+    setCurrentPage(page)
+    setCurrentLessonIndex(null)
+    setCurrentQuestionIndex(null)
+  }
+
+  // Render based on current page
+  if (currentPage === 'lesson' && currentLessonIndex !== null) {
+    const currentLesson = lessons[currentLessonIndex]
     return (
-      <div className="app">
-        <div className="loading-screen">
-          <h2>Loading...</h2>
-        </div>
-      </div>
+      <>
+        <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
+        <Lesson
+          lesson={currentLesson}
+          db={db}
+          executeQuery={executeQuery}
+          lessons={lessons}
+          currentLessonIndex={currentLessonIndex}
+          onLessonChange={handleSelectLesson}
+          onBack={() => handleBackToPage('learn')}
+          progress={progress}
+        />
+      </>
     )
   }
 
-  // Show dashboard if no lesson selected, otherwise show lesson
-  if (currentLessonIndex === null) {
+  if (currentPage === 'question' && currentQuestionIndex !== null) {
     return (
-      <Dashboard
-        lessons={lessons}
-        progress={progress}
-        onSelectLesson={setCurrentLessonIndex}
-      />
+      <>
+        <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
+        <PracticeQuestions
+          questionIndex={currentQuestionIndex}
+          onBack={() => handleBackToPage('practice')}
+          progress={progress}
+        />
+      </>
     )
   }
-
-  const currentLesson = lessons[currentLessonIndex]
 
   return (
-    <Lesson
-      lesson={currentLesson}
-      db={db}
-      executeQuery={executeQuery}
-      lessons={lessons}
-      currentLessonIndex={currentLessonIndex}
-      onLessonChange={setCurrentLessonIndex}
-      progress={progress}
-    />
+    <>
+      <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
+      {currentPage === 'home' && (
+        <LandingPage
+          onGetStarted={() => handleNavigate('learn')}
+          progress={progress}
+          totalLessons={lessons.length}
+        />
+      )}
+      {currentPage === 'learn' && (
+        <LearnSQL onSelectLesson={handleSelectLesson} progress={progress} />
+      )}
+      {currentPage === 'practice' && (
+        <PracticeQuestions onSelectQuestion={handleSelectQuestion} progress={progress} />
+      )}
+    </>
   )
 }
 
