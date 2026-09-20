@@ -88,6 +88,7 @@ function App() {
           questionIndex={currentQuestionIndex}
           onBack={() => handleBackToPage('practice')}
           progress={progress}
+          executeQuery={executeQuery}
         />
       </>
     )
@@ -107,7 +108,11 @@ function App() {
         <LearnSQL onSelectLesson={handleSelectLesson} progress={progress} />
       )}
       {currentPage === 'practice' && (
-        <PracticeQuestions onSelectQuestion={handleSelectQuestion} progress={progress} />
+        <PracticeQuestions
+          onSelectQuestion={handleSelectQuestion}
+          progress={progress}
+          executeQuery={executeQuery}
+        />
       )}
     </>
   )
