@@ -1,2 +1,28 @@
-
 .claude
+
+# node_modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+# model answers for problems stay local, the site only needs expected.json
+content/problems/**/solution.sql
+content/problems/**/wrong*.sql

@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "c9d25df475c7e231",
+    "wrong": "325e775a36ddb263"
+  },
+  "sample": {
+    "hash": "051c9e37a547adf6bcc7b3f5882d5ff071c6bc19681e59da09c6aade695a300d",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "cuisine"
+        },
+        {
+          "name": "revenue"
+        }
+      ],
+      "rows": [
+        {
+          "cuisine": "Indian",
+          "revenue": "2150.00"
+        },
+        {
+          "cuisine": "Italian",
+          "revenue": "1240.00"
+        },
+        {
+          "cuisine": "Healthy",
+          "revenue": "1040.00"
+        },
+        {
+          "cuisine": "Burgers",
+          "revenue": "850.00"
+        },
+        {
+          "cuisine": "Chinese",
+          "revenue": "840.00"
+        },
+        {
+          "cuisine": "Desserts",
+          "revenue": "530.00"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "1c34b849e66d8680df4534eb81e8c82b2541e62bd692b0f239ce93d647fa1fee",
+    "rowCount": 2,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "f3adc10b817ba3601339c97cb06913bb9e964a6ce41bd2a1c331bdff698b5a8b",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "947732250af58aa0eba9b7cff85ddca8b16ff5408efd27b3b9258e6ea2669f32",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "a97ce144e99d5a21c2a4f0451ed2e7a511d4231fe52d4d1b867d07fceeec56b9",
+    "rowCount": 5,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "7d0e1c7ee007c04b1394fa5c1ab08a22321168f9ed94087a79055cf693c1194f",
+    "rowCount": 4,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "929887c3cdf4ba5cdfeb643c3a41527b4a47761f834e19635dedc4d460edcf0b",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "a78149ed586fa354f99f9edc2d05307910fa3126101974d69b28b1e339af5e7b",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "revenue"
+    ],
+    "ms": 12
+  }
+}

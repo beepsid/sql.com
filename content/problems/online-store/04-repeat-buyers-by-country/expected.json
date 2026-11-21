@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "data": "f6f3c94746135422",
+    "solution": "1e509a5325d2bcea",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "76da7e08c8a03b611d485f81723dcc6e40813453f781c899b6d9f6578722c3d2",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "country"
+        },
+        {
+          "name": "buyers"
+        },
+        {
+          "name": "repeat_buyers"
+        },
+        {
+          "name": "repeat_rate"
+        }
+      ],
+      "rows": [
+        {
+          "country": "AE",
+          "buyers": "1",
+          "repeat_buyers": "1",
+          "repeat_rate": "100.0"
+        },
+        {
+          "country": "BR",
+          "buyers": "1",
+          "repeat_buyers": "0",
+          "repeat_rate": "0.0"
+        },
+        {
+          "country": "CN",
+          "buyers": "1",
+          "repeat_buyers": "0",
+          "repeat_rate": "0.0"
+        },
+        {
+          "country": "IN",
+          "buyers": "2",
+          "repeat_buyers": "2",
+          "repeat_rate": "100.0"
+        },
+        {
+          "country": "US",
+          "buyers": "1",
+          "repeat_buyers": "1",
+          "repeat_rate": "100.0"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "7f067e5393a2fa79ed463ceb98b39972d80a76fd85e5c77026886413b151e97b",
+    "rowCount": 2,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 2
+  },
+  "case-05-repeat-rate-math": {
+    "hash": "feb46497533f493f383e284a157f2261e7602f24e0f8280a69a903ee5140be4a",
+    "rowCount": 3,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "69ae0db0b15ce71131b56c96b552eb41dbc9e75d994950469f4c2c39e900246b",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "ca44a17ba5734288314c933e2fcff2e081365433804c7ca9c9f991d84111812b",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "a7969334fc0a35113e0b4da0983eb7f64e85b4cb96669a4f208dba5100e8b8b1",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "9c4738188be043432f67c6ec60a11e9b3cb567a007dd5898bc09ae88d97dafbb",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "9be39ff53e2933760a46ea4336eff5fd589a94854cdfd7b64662695568f12029",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "86709c18b201395df473b7908bc262d84059ac9d6b8f558dc05388c6410bd811",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "buyers",
+      "repeat_buyers",
+      "repeat_rate"
+    ],
+    "ms": 38
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "data": "b8a5586916495acb",
+    "solution": "9d3e34f0f30b89dd",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "a616b2e71f5b55cde70978b083a50546c1ac30a89595f835a04a5a658fcef996",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "event_type"
+        },
+        {
+          "name": "events"
+        },
+        {
+          "name": "users"
+        }
+      ],
+      "rows": [
+        {
+          "event_type": "app_open",
+          "events": "11",
+          "users": "6"
+        },
+        {
+          "event_type": "view_item",
+          "events": "8",
+          "users": "5"
+        },
+        {
+          "event_type": "add_to_cart",
+          "events": "5",
+          "users": "4"
+        },
+        {
+          "event_type": "purchase",
+          "events": "3",
+          "users": "3"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "random-1": {
+    "hash": "a90460f1b05ae43aefdd6aadcfd628bd60aa0d7812ab1f86a905ae9c7bf181ae",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "fb42f9b17934b3648ff67fc052ded9875b0e4d3dec29b8c910004e1524777152",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "bd0fdb74a4541a82b840c0aaa548b4686c63f7118b3900209018c691257d304b",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "fa820276aebac6bfe0f319c9aed5f7668574a27c92b73bff3f10dc3f419d820e",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "57c83a7935a7549691bbc061e53c6ce332895a83126c6f8801ea317672a03e44",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 3
+  },
+  "large": {
+    "hash": "5ef305ada952964c451ede013c188e57e1896ba8d69a5033f2b358b10ce8142a",
+    "rowCount": 4,
+    "columns": [
+      "event_type",
+      "events",
+      "users"
+    ],
+    "ms": 108
+  }
+}

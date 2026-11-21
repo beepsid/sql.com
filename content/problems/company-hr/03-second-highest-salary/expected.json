@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "data": "d84fdc2bbf68c47c",
+    "solution": "3258d983d37ce9fa",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "643ede5fcb8a69c9ec3f40ed60b973f8452371dbfd3dead2f6fb87f7ec3f9cd6",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "second_highest"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "second_highest": "160000"
+        },
+        {
+          "dept_name": "Finance",
+          "second_highest": null
+        },
+        {
+          "dept_name": "Legal",
+          "second_highest": null
+        },
+        {
+          "dept_name": "Sales",
+          "second_highest": "120000"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "f3cdea3ce2965240e7d301e57f79d80bf4fee73ed668102b7b1e3d3331bb8583",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "0a9a748c552364dce2a8f4a19b0230f67b389529a48c9d41d485d061d2476152",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "dbf77483d443ff178a647e4b23304ed5775417c41a3d651f75ad9581a4a97e21",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "a83cda7c580c844c09201062f8bfe41d8e3ccb2586d42c8e4684bc28644924f6",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "32d48dd90c2d2e51a7391a1fd4cbc2834db26cd324c35b19e1bb342d9172e93d",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "3a1b3ee5f508bec5ed1be501c75044e5099f7234b8494c1ad0ffc22fb5e5c553",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "524c431d5b43001056dd92cc44dfbe987c117bc33bc8a51c3e6c36c7f01dc227",
+    "rowCount": 133,
+    "columns": [
+      "dept_name",
+      "second_highest"
+    ],
+    "ms": 24
+  }
+}

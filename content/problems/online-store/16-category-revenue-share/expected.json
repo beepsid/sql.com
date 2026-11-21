@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "533c579e9dfe58a4",
+    "wrong": "a3bcdbc875d7d950"
+  },
+  "sample": {
+    "hash": "0c94a408dcf6db9f6bb8ac1e5d61aec20242180498f494b5e051f31c2c8eb2be",
+    "rowCount": 3,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 4,
+    "output": {
+      "fields": [
+        {
+          "name": "category"
+        },
+        {
+          "name": "revenue"
+        },
+        {
+          "name": "share_pct"
+        }
+      ],
+      "rows": [
+        {
+          "category": "Laptops",
+          "revenue": "4750.00",
+          "share_pct": "78.8"
+        },
+        {
+          "category": "Audio",
+          "revenue": "1080.00",
+          "share_pct": "17.9"
+        },
+        {
+          "category": "Accessories",
+          "revenue": "195.00",
+          "share_pct": "3.2"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "ab7f9bc5a5b5b0452733f9ac843ca3d71c0be422563116eb3542eab9ad547e71",
+    "rowCount": 3,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "555a5b1fb91db4826736088dad03d9fc8cf5056f06bb5c71f4250779b565c1f6",
+    "rowCount": 3,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "388c3f312b3b5f8238d819b75f80b71e906fbbc14503dca43373e886fcdc5823",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "9ee4174bca8830c8dbaa068137064fc8ce7153554f3cd98f593e25cabb5f126d",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "dcec7c6146396484466e56825c887a385908be2455b60c3c11bc11fc3730e6e8",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "8031b384220acb3aa817986f7f08baaca00e9162bdebe65fc880af94b1b0ddaf",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "4f561bdfdbf281f558fa0fd7f362ffd708fc850f2655cb3931696049cdcc1900",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "fd197118e53b95c3639a5bb5f6a5f899fb610b83f35df6ad7cfd11215062226a",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "revenue",
+      "share_pct"
+    ],
+    "ms": 97
+  }
+}

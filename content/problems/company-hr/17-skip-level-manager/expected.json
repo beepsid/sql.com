@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "data": "5d7b1706d2786237",
+    "solution": "8d4d8ef37e927884",
+    "wrong": "333e3a39917f02c3"
+  },
+  "sample": {
+    "hash": "ded6aabdcd5a5c351b903ad5f855165c59882f59b8b5cb555449a65fe27ce662",
+    "rowCount": 11,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "skip_manager_name"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "name": "Vikram",
+          "skip_manager_name": null
+        },
+        {
+          "emp_id": "2",
+          "name": "Anita",
+          "skip_manager_name": null
+        },
+        {
+          "emp_id": "3",
+          "name": "Rohit",
+          "skip_manager_name": "Vikram"
+        },
+        {
+          "emp_id": "4",
+          "name": "Meera",
+          "skip_manager_name": "Vikram"
+        },
+        {
+          "emp_id": "5",
+          "name": "Isha",
+          "skip_manager_name": "Anita"
+        },
+        {
+          "emp_id": "6",
+          "name": "Sameer",
+          "skip_manager_name": null
+        },
+        {
+          "emp_id": "7",
+          "name": "Pooja",
+          "skip_manager_name": "Vikram"
+        },
+        {
+          "emp_id": "8",
+          "name": "Dev",
+          "skip_manager_name": "Vikram"
+        },
+        {
+          "emp_id": "9",
+          "name": "Kabir",
+          "skip_manager_name": "Vikram"
+        },
+        {
+          "emp_id": "10",
+          "name": "Nisha",
+          "skip_manager_name": null
+        },
+        {
+          "emp_id": "11",
+          "name": "Arjun",
+          "skip_manager_name": "Vikram"
+        }
+      ],
+      "total": 11
+    }
+  },
+  "case-02-managers": {
+    "hash": "c1ff866c11866ec2b3db4d51ac55594990fbcfdbaa8c0fc57bb886d4eaf450b3",
+    "rowCount": 6,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "4f443f7f42fe3fb91f8a791cea172130f1baaaaa5b40fa9cca731581ec88ef97",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "50eeaa8529768d0edc3a08dd1809da340825789084fc163597a18589108a42c8",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "722b2331788948779cb930d7c77516ea7eef31668d19895432110c8331675918",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "570cee3aa6682be58343744e41480e02b68ad14c2ef0139c8dc08626f7517f2c",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "acc26f22168200d0ddd778f047e0027a5b3a3ad2956ff8aa974143f4622c0642",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "404439fe25a7c15a26622b8c6ecea62802a3d4ba49d7d8c859959b356910afc7",
+    "rowCount": 20000,
+    "columns": [
+      "emp_id",
+      "name",
+      "skip_manager_name"
+    ],
+    "ms": 140
+  }
+}

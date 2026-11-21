@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "data": "63526458becd0c89",
+    "solution": "4a9e8fd051dc313c",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "57637f43b2a01846a65081be522548a06999219778505be13b5a6244ebe475a4",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "platform"
+        },
+        {
+          "name": "viewed"
+        },
+        {
+          "name": "carted"
+        },
+        {
+          "name": "purchased"
+        }
+      ],
+      "rows": [
+        {
+          "platform": "android",
+          "viewed": "2",
+          "carted": "1",
+          "purchased": "0"
+        },
+        {
+          "platform": "ios",
+          "viewed": "2",
+          "carted": "2",
+          "purchased": "2"
+        },
+        {
+          "platform": "web",
+          "viewed": "1",
+          "carted": "0",
+          "purchased": "0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-04-funnel-order": {
+    "hash": "598e6f0570ff503dd3c93eadade46605e06dcc1de27ed786cb39c9f03aa0ea3b",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 3
+  },
+  "random-1": {
+    "hash": "4aa973b2a7f6ba2660d22f90548d4336432ffd42fbd195ad5f363d93fc38762a",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "4e160c32408c2040ecca1573fbfacabfd688b748200f6168370d03f42350e0db",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 3
+  },
+  "random-3": {
+    "hash": "ec1501c082d511556996184e5d3b1ecf85d0af3f3139e8ac91d0817c92cc2b00",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "6f4986c5f20c4fea10ae9473889e45b59ebb49b29091fd6762a8c934c589f0c3",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 3
+  },
+  "random-5": {
+    "hash": "6495aaa0067c1ed0325ccead1203da9d33aaf019507710f2fe5aef7333bd3fc1",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 4
+  },
+  "large": {
+    "hash": "e6bdcdbf5a4dea90da0302ee4955f2e149b3fd0bd8374add0ea06e346df7ede0",
+    "rowCount": 3,
+    "columns": [
+      "platform",
+      "viewed",
+      "carted",
+      "purchased"
+    ],
+    "ms": 61
+  }
+}

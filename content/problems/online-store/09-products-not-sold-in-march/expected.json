@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "b87f8df45b013bb7",
+    "wrong": "0f65d55943c40785"
+  },
+  "sample": {
+    "hash": "0a9721e6744b6f1d91f29d576710da339a3bc5d82dadd1a4ee9e2d69be2e8a9f",
+    "rowCount": 2,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "product_id"
+        },
+        {
+          "name": "product_name"
+        }
+      ],
+      "rows": [
+        {
+          "product_id": "2",
+          "product_name": "Pro 15 Laptop"
+        },
+        {
+          "product_id": "8",
+          "product_name": "Earbuds"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "9400ddd6047f93ac7e1fbe9fdc7c5b1753d107191d163af73aeddf0d5f7abaac",
+    "rowCount": 2,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "9112c0668ba64c62a1f89bfcc13c1ad7a799bc33e4bd64c99220c2dd2d351f65",
+    "rowCount": 15,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "3ec27b9afd75534aa76bef1d58636683681e352a7392e323501658796d67d8aa",
+    "rowCount": 14,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "3b57c21294885c25ab95d47e1348ba6646c053e0c905ead205a2640aff9c3a6b",
+    "rowCount": 16,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "7f84db77c298d62e43e465e1058f8ee1a0f3b4811955ec7159a924d9c9488d94",
+    "rowCount": 10,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "b6aca6c5c81e04b9574cc07f912d74f546bb84240f3f7880de8b0850aa7ecf54",
+    "rowCount": 18,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "d415d2651e14a7155fe90ca3acbe2d277870f52c78656639832dae72d03d4505",
+    "rowCount": 0,
+    "columns": [
+      "product_id",
+      "product_name"
+    ],
+    "ms": 19
+  }
+}

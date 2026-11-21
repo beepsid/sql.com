@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "9f63c6991d3f3ab4",
+    "wrong": "e764460040f80eb2"
+  },
+  "sample": {
+    "hash": "5e13bd25cfc477dc767f99960199bb6850fdfc96a5ac0892459758c13b255763",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "order_id"
+        },
+        {
+          "name": "running_total"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "1",
+          "order_id": "102",
+          "running_total": "1140.00"
+        },
+        {
+          "customer_id": "2",
+          "order_id": "104",
+          "running_total": "1500.00"
+        },
+        {
+          "customer_id": "4",
+          "order_id": "108",
+          "running_total": "1450.00"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "db743d295b23f2fa3efdbc4136c2444c8d4debfa34eb6be8ee9a3de1c76b5212",
+    "rowCount": 1,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "bdbd011a5ec70de18364c4279f2baa9184394053f360f99c6907fe3778b889c5",
+    "rowCount": 1,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "c5423d9433148a153b43a8e1127ec2a4a9adb8caa0120dbdc45f65c594d81a78",
+    "rowCount": 14,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "d5d40c5d194d6bd27de239add4202cba24ec8a2a93d299566926315a871968c9",
+    "rowCount": 14,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "8856727782c664ab07a3b2c831ae7f03c3c3939d3a133f4ba940df63f7c5bb57",
+    "rowCount": 7,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "5561af2c8508baac51288608d3382afd1e2f4a6c024b9c7c9e2c69668d501c09",
+    "rowCount": 18,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "61f81c27f18b875b6a12428890739315d7018d1b265b80ce47687fa7c1888916",
+    "rowCount": 11,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "f4594112ebe69da9ad1af7d90a7cc207aeddd86c240121b3727f769db59639a6",
+    "rowCount": 6473,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "running_total"
+    ],
+    "ms": 226
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "b3cac895181c83e6",
+    "wrong": "0986ba45f78c98d6"
+  },
+  "sample": {
+    "hash": "bcf15213d144962b318555ea492ef9d8f95bd1820ebc5b1364a7fbc5c4302653",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "release_year"
+        }
+      ],
+      "rows": [
+        {
+          "title": "Night Shift",
+          "release_year": "2023"
+        },
+        {
+          "title": "Street Cricket",
+          "release_year": "2023"
+        },
+        {
+          "title": "Two Tickets",
+          "release_year": "2023"
+        },
+        {
+          "title": "Orbit",
+          "release_year": "2022"
+        },
+        {
+          "title": "Paper Rockets",
+          "release_year": "2021"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "267489659c10b7b3d9edc6415a1c2a9dc62334f5c6536f54a565aa512e76ea19",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "a9fe4dafcb7ea06744a4f94c565c1a27c6052c1d080820567e938ea76818b546",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "052ef893c62bea0d0b57e7e31204f958684e3180f1b97ba4fd6bed97ef942bf0",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "3ec0918de0c86050a47e40dec88cc2e998964454d3af8da3f309931cd088dec5",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "c2cbc846d618fa398b5d1ea268601a07ae6b05d935fb979d6568e870380a557c",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "6bc4b079ff9d81fdad1dd5fd9286e199a6b96bf8ff405b65e4bcdf16c1a97e03",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "4d3e59e788a89e7242e267bb036eabfb5a76c641224f47eb49fd96af05e00584",
+    "rowCount": 5,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 6
+  }
+}

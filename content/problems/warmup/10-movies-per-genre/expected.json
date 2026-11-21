@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "4a299f64cf3a4d36",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "acd7dc51666b518d7bf97ac98d190dbbfeb87fe1569eefe057c0dd5b148a6270",
+    "rowCount": 5,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "genre"
+        },
+        {
+          "name": "movies"
+        }
+      ],
+      "rows": [
+        {
+          "genre": "Sci-Fi",
+          "movies": "2"
+        },
+        {
+          "genre": "Comedy",
+          "movies": "4"
+        },
+        {
+          "genre": "Romance",
+          "movies": "2"
+        },
+        {
+          "genre": "Horror",
+          "movies": "3"
+        },
+        {
+          "genre": "Drama",
+          "movies": "3"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "1ff875f56e2588dac275431f5b225424aae54e7926cecfed5479f1894b8f0e5d",
+    "rowCount": 3,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "9d988f329e2e9c45be885927709f7b154c361602e50d3da6a9f2d7715fda78c3",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "8265e97817e7eca64bf53de734dc66002e96a7cb2c5f3e9e8c2944eeaab2491e",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "91efae4adae19560536d7a5daa7228bd59eebae114a0b0c5d7cd6cdbd2728c35",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "5bf552df763af5ea8eccdc4c4db07b3b6d63dac983bd51fef9375966bf2515e8",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "ca91df79fd6cc3035f4ae3b48aaff8aa5563d0c43ae9da13f033da7599043ce6",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "47886854417c60f9b1b1af69e031b81fa708027d52fd4f4d3a679779b318cf5f",
+    "rowCount": 6,
+    "columns": [
+      "genre",
+      "movies"
+    ],
+    "ms": 6
+  }
+}

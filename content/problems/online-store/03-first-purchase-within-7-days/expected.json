@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "data": "3ed2b06950fb4ab0",
+    "solution": "8879ae3f34475e9d",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "2501c60556dcdcec6d2834d5c6bfe3609a6585fdf543d3f9bee30ea55a91a561",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "signup_date"
+        },
+        {
+          "name": "first_order_date"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "1",
+          "signup_date": "2025-12-28",
+          "first_order_date": "2026-01-02"
+        },
+        {
+          "customer_id": "2",
+          "signup_date": "2026-01-03",
+          "first_order_date": "2026-01-10"
+        },
+        {
+          "customer_id": "6",
+          "signup_date": "2026-02-01",
+          "first_order_date": "2026-02-03"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "fcb926c9b1fc678cfdbe81822f4ed40e17199b5c782945b06ba87d1eaf515068",
+    "rowCount": 1,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 1
+  },
+  "case-04-signup-edges": {
+    "hash": "4056fd1725a3f22360344883a350680c6733cf9ef9d974785892b42b4ce0c148",
+    "rowCount": 2,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "b1625bd8ab95d0333e3230670cebdf1d97b0170e0115f5d8d1d3b10927760ae5",
+    "rowCount": 16,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "70ec899c0f5f52673c2f0d53ab86678d3747fad4978135b34acf91cbfbaf43c9",
+    "rowCount": 20,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "a6de72da08d0e7da4b59eeca59cd1d220f5ebc24cd3767b92c7ddee07e8fce6a",
+    "rowCount": 14,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "8be1e067ddf7f25687dd3f8ce0800c8f8d1b27d9e0de90235c14adc7ba974117",
+    "rowCount": 18,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "5d9bb101fc618646cea94c850f9726aca99bac986e719cfaf8094cd959a3fd3e",
+    "rowCount": 23,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "d7ea3e5e6fd2f03d16a232d40f30aba50e54620aa4417dd02c8a2013332b57ae",
+    "rowCount": 9377,
+    "columns": [
+      "customer_id",
+      "signup_date",
+      "first_order_date"
+    ],
+    "ms": 88
+  }
+}

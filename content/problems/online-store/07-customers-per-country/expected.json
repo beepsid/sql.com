@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "7fb919c58acc6fbb",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "6d97d81e481c5de6a1841aaf2dbefb6df3757fb3e78cbaa54a3d5ca58651e9eb",
+    "rowCount": 6,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "country"
+        },
+        {
+          "name": "customers"
+        }
+      ],
+      "rows": [
+        {
+          "country": "IN",
+          "customers": "2"
+        },
+        {
+          "country": "US",
+          "customers": "2"
+        },
+        {
+          "country": "AE",
+          "customers": "1"
+        },
+        {
+          "country": "BR",
+          "customers": "1"
+        },
+        {
+          "country": "CN",
+          "customers": "1"
+        },
+        {
+          "country": "JP",
+          "customers": "1"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "18e2a37d3dc2b00e115b867b15577277f170a9d20d683490a055f05b0c2a7349",
+    "rowCount": 2,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "09e1437a715394e5934abacb2b56b8a1b9739e9a648d7c36fdac1ecac92bb555",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "95c9ae9ad0b6dad3dec28ccf408cc79feb2f5f9745be6bba76ab370960efedeb",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "f8f39e3514018c34f2cfb3546a9db979e1559dfca39156d48a78fab416eae82a",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "ab6f8c13179c163304402d1ba54be9a1fc13ae4818ae178cf227c64d81ae894e",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "34aa972d8cac150818189a0775a8f70cda603f19e71ff7e7c8d9fc491d608abc",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "5db65b3823ab13211478171cc55779aaaa600afa1c0faf593e1b6b8f05f966f5",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "customers"
+    ],
+    "ms": 5
+  }
+}

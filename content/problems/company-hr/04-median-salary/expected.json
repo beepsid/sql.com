@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "data": "6e3bf6b2df139fab",
+    "solution": "bd3b1a9816d3fe86",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "1284a805d7d983b8d8c668944b2b311321f745ae902293cfaaa3ffb07937d209",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "median_salary"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "median_salary": "150000.00"
+        },
+        {
+          "dept_name": "Finance",
+          "median_salary": "110000.00"
+        },
+        {
+          "dept_name": "Sales",
+          "median_salary": "120000.00"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "92cacd79355484c8c5a27cfcd8f3f563907fa68ba1a509cc577c44440f4d9511",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 1
+  },
+  "case-03-median-shapes": {
+    "hash": "3c2f0e1d97b0d0027caf22961f193ad419030cf5b8d53aa95ef2795300aba6c7",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "b5d8fb327481c9c26009ceacc5b2ab3e119b81248d4137c3732b5744ef99641a",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "91f554fd465fac109dd3eae31df0c240565700a7b59dc16e4dba54f959731b51",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "08d89ecb355b0fb27f49565dc2bcbab4cbdd056dcdfdc27ec2981350036423e5",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "f0d2fd2d70e1a986c4210418783698f34a15501291c505330172589b7e82a97e",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "da1d8a85810321f1cb00620c493a7e47f301fb95255e89cb6d4eafe4857d9007",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "9ac6f8980ef9e96afb1fe8df2d64b0073b7400ade07e9db7243fa4fc761f40a5",
+    "rowCount": 132,
+    "columns": [
+      "dept_name",
+      "median_salary"
+    ],
+    "ms": 18
+  }
+}

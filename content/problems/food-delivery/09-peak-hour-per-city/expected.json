@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "6af85f88004b2719",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "a24a6259d77a745fcf62d15984603417a5664dfcbde4f3e2b58f2832af5175c2",
+    "rowCount": 5,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "city"
+        },
+        {
+          "name": "order_hour"
+        },
+        {
+          "name": "orders"
+        }
+      ],
+      "rows": [
+        {
+          "city": "Bengaluru",
+          "order_hour": "12",
+          "orders": "2"
+        },
+        {
+          "city": "Bengaluru",
+          "order_hour": "18",
+          "orders": "2"
+        },
+        {
+          "city": "Delhi",
+          "order_hour": "12",
+          "orders": "2"
+        },
+        {
+          "city": "Delhi",
+          "order_hour": "19",
+          "orders": "2"
+        },
+        {
+          "city": "Mumbai",
+          "order_hour": "12",
+          "orders": "4"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "256e8cf77e326921106a11694a69d28b2e3a3843989b85df18294b4730abc701",
+    "rowCount": 1,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "fdc01532a2c8bb5df273e01fe8c46cdfa00c620e89b46cc60e423bef4fcf9890",
+    "rowCount": 6,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "17bc0fffb7b1661b22b3dc48c67f5a0d1385edfd25767fa664a2c3312a9c4b0b",
+    "rowCount": 9,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "c1a3eefde84bcc65c8c70ced4092a507c517bd9dfe7c91de4b3cfed2cded54ba",
+    "rowCount": 8,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "96b2acb21f1cf989e6387e52bb7c6fdba0f6026f6ec3a47d6c703f951050f7bc",
+    "rowCount": 10,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "c7194f83962bb1b595edbceb8b1aa22521d893f0eb3850d01ccd918027a8dac4",
+    "rowCount": 11,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "09f20984338c71632a5965923708d983b370d80665bbfd54e07350017b202dcb",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "order_hour",
+      "orders"
+    ],
+    "ms": 17
+  }
+}

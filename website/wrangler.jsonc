@@ -1,0 +1,7 @@
+// cloudflare pages config: the site is the static files in out/ (built by `npm run build`).
+// no server code runs, it's just files.
+{
+  "name": "sqlnote",
+  "pages_build_output_dir": "./out",
+  "compatibility_date": "2026-10-12"
+}

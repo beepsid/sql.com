@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "data": "15aa56c836687e05",
+    "solution": "9395cce7d5bc301a",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "137baaab9df12b1e2de6b81c9e723851fb1fa7bcafcf97c965fedef86c81ab48",
+    "rowCount": 3,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "month"
+        },
+        {
+          "name": "revenue"
+        },
+        {
+          "name": "growth_pct"
+        }
+      ],
+      "rows": [
+        {
+          "month": "2026-01-01",
+          "revenue": "4450.00",
+          "growth_pct": null
+        },
+        {
+          "month": "2026-02-01",
+          "revenue": "240.00",
+          "growth_pct": "-94.6"
+        },
+        {
+          "month": "2026-03-01",
+          "revenue": "1335.00",
+          "growth_pct": "456.3"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "33292d8867b578a2a5be83df716549e6b1d89626cd09e924d5024139546ca24f",
+    "rowCount": 3,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "case-03-month-gaps": {
+    "hash": "255d469cfe7442a6c24db4c3a017730f810c25256ba6773fe5c080a580e63674",
+    "rowCount": 5,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "65a7a152e81dbb0cb526151c44ee600e7db2d42ba057d230fb687eaddef72bfe",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "4ab0de2798a0b276f22adef24cde93a4be472c33a54d797d623500f22abd92f2",
+    "rowCount": 11,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "6ddc1ff3a110b61d8dd9a9108ca1d810934b9451c6c7c91ffca4c0c2381848ec",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "a18b408b9a6d7036366018f03d268c5cc2a9e93a38337e312bfc3ea2f49c1949",
+    "rowCount": 11,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "976ad628078ececde8f5590534796c7e0f4dddc151e68c5479f18b3a4b6e5a43",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "dc799bccbfd1e5d54a184be6f3ca9371726855e5881f8d60b13a6228503cf2e2",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "revenue",
+      "growth_pct"
+    ],
+    "ms": 81
+  }
+}

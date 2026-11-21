@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "data": "5db262f55f38b2fc",
+    "solution": "303e6b067fa53036",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "81e8c65a8e21ba044a6a7ae72bdcba594ef0b73ba3fa08dbece2a43fa4332736",
+    "rowCount": 4,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 4,
+    "output": {
+      "fields": [
+        {
+          "name": "signup_date"
+        },
+        {
+          "name": "cohort_size"
+        },
+        {
+          "name": "retained"
+        },
+        {
+          "name": "retention_pct"
+        }
+      ],
+      "rows": [
+        {
+          "signup_date": "2026-03-01",
+          "cohort_size": "2",
+          "retained": "1",
+          "retention_pct": "50.0"
+        },
+        {
+          "signup_date": "2026-03-02",
+          "cohort_size": "1",
+          "retained": "1",
+          "retention_pct": "100.0"
+        },
+        {
+          "signup_date": "2026-03-03",
+          "cohort_size": "2",
+          "retained": "0",
+          "retention_pct": "0.0"
+        },
+        {
+          "signup_date": "2026-03-05",
+          "cohort_size": "1",
+          "retained": "1",
+          "retention_pct": "100.0"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-02-retention-edges": {
+    "hash": "85149e9069fd4dd98b8739fa31716aa36926747ae44f4a4cb6bb2e621f5c2506",
+    "rowCount": 3,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "e1c6781196261f6c0dbbae736bf07a55730ef5299ff67ccc81bab3b5f5c63e28",
+    "rowCount": 28,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "7432a686f378e208e3aff20e40c791f7793b96f6dfdae0d9878d7182a80d797b",
+    "rowCount": 32,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "6d50311ca9b5d1e146bd1022e200633cff47c150299c21aae8f007c41487bba6",
+    "rowCount": 31,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "9c18825247035f3f1df73389187a07978ab4150a3409ff4aa26431fec12c13bd",
+    "rowCount": 29,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "8eeef7d10edf4d72e13f865a4e6c2d84600efc64329aaf57989269a49afd33d2",
+    "rowCount": 33,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "b3cbedd50565b830623f94cb15851b35e17fdd0d424917a6efbb56737cb99754",
+    "rowCount": 60,
+    "columns": [
+      "signup_date",
+      "cohort_size",
+      "retained",
+      "retention_pct"
+    ],
+    "ms": 19
+  }
+}

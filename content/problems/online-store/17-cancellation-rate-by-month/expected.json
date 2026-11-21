@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "8a22c568057cefb6",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "38b7e6341da47b2df0aa17f139876fc401f1ae10727944895c7d8d79ac83e73e",
+    "rowCount": 3,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "month"
+        },
+        {
+          "name": "orders"
+        },
+        {
+          "name": "cancelled"
+        },
+        {
+          "name": "cancel_pct"
+        }
+      ],
+      "rows": [
+        {
+          "month": "2026-01-01",
+          "orders": "6",
+          "cancelled": "1",
+          "cancel_pct": "16.7"
+        },
+        {
+          "month": "2026-02-01",
+          "orders": "4",
+          "cancelled": "1",
+          "cancel_pct": "25.0"
+        },
+        {
+          "month": "2026-03-01",
+          "orders": "4",
+          "cancelled": "0",
+          "cancel_pct": "0.0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "1fd6b035f6224b00b5b2e19aa1140d63127ff16d9af84519ec1aa5ad6464ba07",
+    "rowCount": 4,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "ad611baa6aeef055793f444913030c5184258209f226b2237df46f15c766e51b",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "d131da4cfcbde284a9aa5a1a19ee5123c32e7ce90c3b770b6240e8d7311962a8",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "21c95c632b4c11e733262d57ddc490f0d73b6ad5c06b2685bfa5cb0e800e643f",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "72f16c1a3c76d53de3e8b673259e27f4c6f323959e5a466b617ca378e46107d5",
+    "rowCount": 11,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "6c4ed60cb16765865b58964621d0dc5e08101345011ba907684e625373b534a0",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "714e8e93eb044f48956f2f2153e75d3df32502e002c363f51ad51fa22d1ef881",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 34
+  }
+}

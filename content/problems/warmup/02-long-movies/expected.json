@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "3cb2f2138e4a9ab5",
+    "wrong": "99e01a58fc3d81d9"
+  },
+  "sample": {
+    "hash": "160aebec4c2d1d6678a18770808a8e1ee80a7399c433a6583b42940fec14c76f",
+    "rowCount": 2,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "minutes"
+        }
+      ],
+      "rows": [
+        {
+          "title": "The Last Monsoon",
+          "minutes": "152"
+        },
+        {
+          "title": "Orbit",
+          "minutes": "171"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "e0799025fa4bb64b7e9bb25435e81513b4b603f8bdcd36db957560b015e1d252",
+    "rowCount": 2,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "bcf7cf707d3ea49af65b07bfe857838d53d912a9a98d97c7638853d33ecdcc85",
+    "rowCount": 29,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "24ea0dd259e5c7b004c447dff34107ca5bcae944c16a66b7e208c0107f15a1ac",
+    "rowCount": 35,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "9bebd9096adc1303c2ecd9c1c673a40b2db2bed71ad4542db77f230dc737c1e8",
+    "rowCount": 30,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "35f2a3f6278b0e82d76da99d20d1a7bd60b7aa1b0b5c1af41493c9eb99e23510",
+    "rowCount": 34,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "896df143652b209c2cc2ea4e641c94548748420852c6d572266bf07ef7726990",
+    "rowCount": 23,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "9e106450962a45baec8bc38077b2620e25b78b9bdc6ad4157be87fd70ec08849",
+    "rowCount": 4995,
+    "columns": [
+      "title",
+      "minutes"
+    ],
+    "ms": 31
+  }
+}

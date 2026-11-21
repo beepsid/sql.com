@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "data": "5b7b4ea70f2930d5",
+    "solution": "46934df2ff9248b0",
+    "wrong": "8964c52efcc932be"
+  },
+  "sample": {
+    "hash": "5471ed42cfe3b9bbace0b7fcfacbf79fd0886ed3960c26f8eae3b72e0c89e556",
+    "rowCount": 6,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "longest_streak"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "1",
+          "longest_streak": "3"
+        },
+        {
+          "user_id": "2",
+          "longest_streak": "2"
+        },
+        {
+          "user_id": "3",
+          "longest_streak": "1"
+        },
+        {
+          "user_id": "4",
+          "longest_streak": "5"
+        },
+        {
+          "user_id": "5",
+          "longest_streak": "1"
+        },
+        {
+          "user_id": "6",
+          "longest_streak": "1"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-01-streak-shapes": {
+    "hash": "ac66343e9962439cf73f4cbb64751ea8036afe33b7505bbbdd5622132adfc6c2",
+    "rowCount": 4,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 3
+  },
+  "random-1": {
+    "hash": "7c37dad90b6114caaa2b2eca9a004931e6cc6a845f3610b6f2279516311159c6",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "da06875a1443a34ba9d51037fe4fb6974c8a2b71511cf58ee61236cd419eedbe",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 4
+  },
+  "random-3": {
+    "hash": "e168c09f665a0619e49a73ac04b456cc24867606236e9dfc427f6b2967c5b069",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 4
+  },
+  "random-4": {
+    "hash": "1fb386227b7cce082efb2182e3e7fd6d56e9b770ce054df2abc7363e6d100ca9",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 5
+  },
+  "random-5": {
+    "hash": "160caa805a6350c59af439809a15092de14b2cbf450ebc84b8e18f16ae686f3a",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 4
+  },
+  "large": {
+    "hash": "5d6a50e6adea72f0c256e3f0eecf4d4c143b0d52b3e649e478a81f078d3a3b31",
+    "rowCount": 3000,
+    "columns": [
+      "user_id",
+      "longest_streak"
+    ],
+    "ms": 125
+  }
+}

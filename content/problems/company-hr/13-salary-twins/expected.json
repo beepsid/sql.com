@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "data": "c936f5707969d388",
+    "solution": "ccb31e8461e33e53",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "ec79eb02ce2a8adc802fbe0c16ab91ccdb0e0eeb3a283ce715ec9256bfe077af",
+    "rowCount": 1,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "salary"
+        },
+        {
+          "name": "employees"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "salary": "95000",
+          "employees": "2"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "random-1": {
+    "hash": "a1c255ad4fc42db05ce919a085afb719262ad33075c4ae439d4065fcec411095",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "429d484c569f7362303ce2e4edbf1ca15b96e3580903a006e118faf24e80dc87",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "37b714547d9ea2e02c0a996f8fec782bfc92d437d61a9e31345b6fae5c7dbcf9",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "b20bf4c795970930723fe78b3e5592881c15d0e99bd81852f481f3094091e8b9",
+    "rowCount": 2,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "312fc585e98f5777a63dbb78e142ec04af79a0d398d46987296a88e6fb28b5f8",
+    "rowCount": 2,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "1de01dc11a5c90d4ec7c5bd16d1d3d62447369f7731c7f62746d74d31b9698fa",
+    "rowCount": 3605,
+    "columns": [
+      "dept_name",
+      "salary",
+      "employees"
+    ],
+    "ms": 40
+  }
+}

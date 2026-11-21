@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "3be5a358adef5e85",
+    "wrong": "8cb50792f542dc8d"
+  },
+  "sample": {
+    "hash": "a3a547d7c48379a293f61704be57af47641f099ee67140c6d21a38399c6c4dad",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "rating"
+        }
+      ],
+      "rows": [
+        {
+          "title": "Orbit",
+          "rating": "8.6"
+        },
+        {
+          "title": "The Last Monsoon",
+          "rating": "8.1"
+        },
+        {
+          "title": "Theory of Rain",
+          "rating": "8.1"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "d019ba0f5d5de12a09dd44ba4ea18e879b76c80ccb87b810fdbfe2e4b60010f5",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "151489d6d5b3615eeb8525f31264f11a31df6dcaa6341b8a832fc2643b1c4b4d",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "7ffaba70f2b7068625a41fa455196b7f6bb30d7f87e983b41ffae8d44163a5a1",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "c64709054a98f9e04ff28b75b3b131d44ce21482dad86f94340f0932029d22fc",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "3d4cd49c173976e07bc6b68f8d005218ea0d241d0a5a8126a901ac7598a5c054",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 0
+  },
+  "random-5": {
+    "hash": "7768c92aac5a1f00b68e335c05a01f7a55ddc7ae16e0bcf04393a8de92057d16",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "d0bfda7ebecb107f14fae67cb278c3463a7d0d86db13ea26053ed47bfe5d8b4a",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "rating"
+    ],
+    "ms": 7
+  }
+}

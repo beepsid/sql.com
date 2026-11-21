@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "data": "b8a5586916495acb",
+    "solution": "880e6338b4a9b18f",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "853af93a015a775a7606c1b0d54f0ac8ed46f937cc051900dd4abac219763c01",
+    "rowCount": 3,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "week_start"
+        },
+        {
+          "name": "wau"
+        }
+      ],
+      "rows": [
+        {
+          "week_start": "2026-02-23",
+          "wau": "2"
+        },
+        {
+          "week_start": "2026-03-02",
+          "wau": "6"
+        },
+        {
+          "week_start": "2026-03-09",
+          "wau": "3"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "e73367e8df4d025101e06b5e609f040519dec7c25ed5941eea4cc90931d6e6cd",
+    "rowCount": 14,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "991505dff69d468bb3ccafb6dd940fb1da47cef655a5b1c713f7b416bd828752",
+    "rowCount": 13,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "7cd5ec4117bb1a2da6fa3b09c951281f3e8b4fda05406e2b7d5cbd41e13cc740",
+    "rowCount": 13,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "b7bab2c2f1b707754910bc9de87562921c393b9b8b80678a8f984b6c9873ef91",
+    "rowCount": 14,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "197bf7b27dca2d3f236d8660016acd72d6085c89673b425f4a4592b025bb4be3",
+    "rowCount": 13,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "c5896b5dbafd3f14b826ce7a6b930b26daaeb3701ccbbbc774565c370bd63f91",
+    "rowCount": 14,
+    "columns": [
+      "week_start",
+      "wau"
+    ],
+    "ms": 87
+  }
+}
