@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "data": "d84fdc2bbf68c47c",
+    "solution": "6222da6243c4c282",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "e5c4d9a21ecf5b2c1878c356fa7cc71660ca9fb4669cf58688bbf77caaa9b6ae",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "salary"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "name": "Vikram",
+          "salary": "250000"
+        },
+        {
+          "dept_name": "Finance",
+          "name": "Nisha",
+          "salary": "110000"
+        },
+        {
+          "dept_name": "Sales",
+          "name": "Kabir",
+          "salary": "130000"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "1de48fc65cef354f152e7a11b6ee384fa60bb6af0f6a50856d9c0f2558e8709f",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "9f5b77898a2ca66d8094ac64479569b1fa187b79a91e44ab2d9ce79008299d08",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "97037dc09015abf11af4c15b46c915f77aeafb98ca5f441e487ff64362c76a82",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "30397057180ef0abb1def42aea6bacf98d9c24cd85e4f6570042da3864387c85",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "312cf59ca790a61b99966ce1ef29de86997a7a581c14d9757b3403cf4a32ce0e",
+    "rowCount": 6,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "a2abf78967ea2163f99c014f6822330d843b271fb487f5ae31b66c01a24a904e",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "439eb16e657322fdba50c16fabf1142f8e8fc2dc279f84c85ed5ad4ee612df12",
+    "rowCount": 479,
+    "columns": [
+      "dept_name",
+      "name",
+      "salary"
+    ],
+    "ms": 16
+  }
+}

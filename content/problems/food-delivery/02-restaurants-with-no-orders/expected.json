@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "5541e5d7f2fefde4",
+    "wrong": "45b60ec78dcfeb2d"
+  },
+  "sample": {
+    "hash": "1d178131ea604f68bfcd61fbfca361850ef5f5cf053ee722a73b37458c82075c",
+    "rowCount": 1,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "restaurant_id"
+        },
+        {
+          "name": "name"
+        }
+      ],
+      "rows": [
+        {
+          "restaurant_id": "7",
+          "name": "Tandoor Nights"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "fdec8082551e991d4e3b51568b21c5caf464bb0755e2eece03fc67f3478c15f9",
+    "rowCount": 1,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 4
+  },
+  "random-1": {
+    "hash": "76e7ffd848badc22d1a392a772df50fa4a7398cd1891f048bbfbcd5714c1a619",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "76e7ffd848badc22d1a392a772df50fa4a7398cd1891f048bbfbcd5714c1a619",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "a5927183c6d22063fec50ee943b2a4baaba0fa892a082d7622801f7798f1a360",
+    "rowCount": 3,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "76e7ffd848badc22d1a392a772df50fa4a7398cd1891f048bbfbcd5714c1a619",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "76e7ffd848badc22d1a392a772df50fa4a7398cd1891f048bbfbcd5714c1a619",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "93d310d81f8cfb0f2a61c5fda1b2a8ba55172cf52a40b0b142d8e6c24cce0478",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name"
+    ],
+    "ms": 2
+  }
+}

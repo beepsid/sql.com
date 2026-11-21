@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "fc4fd4bfd4f9456a",
+    "wrong": "16f5e239740fe502"
+  },
+  "sample": {
+    "hash": "ae32211543cf3730c0f6862a39f849a019c9ce9afb8b2c5aa0967e9786332c67",
+    "rowCount": 13,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "cuisine"
+        },
+        {
+          "name": "orders"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "101",
+          "cuisine": "Indian",
+          "orders": "2"
+        },
+        {
+          "customer_id": "102",
+          "cuisine": "Burgers",
+          "orders": "1"
+        },
+        {
+          "customer_id": "102",
+          "cuisine": "Italian",
+          "orders": "1"
+        },
+        {
+          "customer_id": "103",
+          "cuisine": "Indian",
+          "orders": "1"
+        },
+        {
+          "customer_id": "104",
+          "cuisine": "Desserts",
+          "orders": "1"
+        },
+        {
+          "customer_id": "104",
+          "cuisine": "Healthy",
+          "orders": "1"
+        },
+        {
+          "customer_id": "105",
+          "cuisine": "Italian",
+          "orders": "1"
+        },
+        {
+          "customer_id": "106",
+          "cuisine": "Burgers",
+          "orders": "2"
+        },
+        {
+          "customer_id": "107",
+          "cuisine": "Healthy",
+          "orders": "1"
+        },
+        {
+          "customer_id": "107",
+          "cuisine": "Indian",
+          "orders": "1"
+        },
+        {
+          "customer_id": "108",
+          "cuisine": "Healthy",
+          "orders": "1"
+        },
+        {
+          "customer_id": "109",
+          "cuisine": "Desserts",
+          "orders": "2"
+        },
+        {
+          "customer_id": "110",
+          "cuisine": "Chinese",
+          "orders": "2"
+        }
+      ],
+      "total": 13
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "5fbbc3991037233d038def91d30425ce67047f8a6a3ba0304aff44a4b4f5fbea",
+    "rowCount": 5,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "d1d5065436428230d00b7cc775dc0f94c36defe781f3ace70fc7e7670e4c1721",
+    "rowCount": 21,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "04c3cf8fd366dacd355ec70521a86b00473a4f8fcf9748404c77243b9a513df2",
+    "rowCount": 23,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "82d56fe577acac800005eccdb526a5e7235a6e4ddf23293aae6728ed9802e54f",
+    "rowCount": 17,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "db6da703161742eefbf43e6408b036137ae4f6fa2490a98378c76b93ad4610cc",
+    "rowCount": 20,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "911d84f1c6437e9e72d430bd43021e382a8ecc51fd7f54bf5f39ae8401cf1775",
+    "rowCount": 26,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "100e2fb34fef07a62626a488da9f8a7546b8ef91d89993f2b762b55cc62beb8b",
+    "rowCount": 8636,
+    "columns": [
+      "customer_id",
+      "cuisine",
+      "orders"
+    ],
+    "ms": 91
+  }
+}

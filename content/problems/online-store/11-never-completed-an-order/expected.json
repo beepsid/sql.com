@@ -1,0 +1,109 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "1fe1133106cb063c",
+    "wrong": "b50eee18c06561bb"
+  },
+  "sample": {
+    "hash": "e9760701296c57e66f99d2c5535eaff4fe4e3ee512bf9c7046b05ae225b7b177",
+    "rowCount": 2,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "name"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "5",
+          "name": "Ethan"
+        },
+        {
+          "customer_id": "8",
+          "name": "Hana"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "2003f37597564a50773e4ce02926f7442f1e793e37f27f6f2a9ad049249968a7",
+    "rowCount": 1,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "27b6e586280f1237e328e320e52acbe12fa539faa6d5ef6bce5f27d89408a02e",
+    "rowCount": 2,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "ee1e4c7a40618676261e9d57d2fb9657516e8f2a6c2ed176a0995f08d686ce9d",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "9aefc7683039c7bc038b00c81efac3654c301f44eb378f5286a27405e18d05fc",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "5777a8c0a8fc4e068d7be31cc4bd75318df49f1a9e7d15c5fbf18c71f5cf6995",
+    "rowCount": 4,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "b38e5d1b9e1e7a324ad4e302f231ecbe4a9b054d4b96f03f3b7580f6e6408925",
+    "rowCount": 4,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "951f48df71015b665fc3b3ff38d3c5302b32cd44432ee9fa4938b49c6304f40d",
+    "rowCount": 2,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "77bb402ff664f1fd4edbd0b9404e81a0b9bec90c467ad78d38aca4ef837e0a39",
+    "rowCount": 1337,
+    "columns": [
+      "customer_id",
+      "name"
+    ],
+    "ms": 22
+  }
+}

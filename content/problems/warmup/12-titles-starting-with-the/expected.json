@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "e31afa0e884b397f",
+    "wrong": "5b97fecef84e1e09"
+  },
+  "sample": {
+    "hash": "810f7c8ef04c5b5aea420606492938f7762f349ea5c5c7d5bec4197810b5bdb0",
+    "rowCount": 3,
+    "columns": [
+      "title"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        }
+      ],
+      "rows": [
+        {
+          "title": "The Last Monsoon"
+        },
+        {
+          "title": "The Quiet Hills"
+        },
+        {
+          "title": "The Long Drive"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "ce8739bfa6ed919500c1ddec1640c3d645f96e43acb9fb8a9b0bb84acdc588a7",
+    "rowCount": 1,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "c3dd8565aa116ad3d735ac8c6dd2e6e7229750c7c4d332101ab73c8ded669d9b",
+    "rowCount": 22,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "34140530d5b08e75a25f2b3ec2d1ca37c1f2baba8ada56857efc1c33ef0a5682",
+    "rowCount": 18,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "cdba5d4b33c2e047b468b553cc21e49927c923139bdd715d54a78c0f9b8fa4de",
+    "rowCount": 22,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "c47df50ce839ff0599f9b0fa56d78da718556c45cd04a2e9b6affbdc603bcaaa",
+    "rowCount": 25,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "62a6cf702b87789aa8b21e55d3afc8c31d7beb4731713f868dd1ccc565d75cd7",
+    "rowCount": 21,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "518d33f1c964ae96dd3a213698bc747a3c7eb9cd52ecb92a409116f946d069ab",
+    "rowCount": 4006,
+    "columns": [
+      "title"
+    ],
+    "ms": 14
+  }
+}

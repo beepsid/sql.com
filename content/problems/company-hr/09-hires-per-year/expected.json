@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "data": "c936f5707969d388",
+    "solution": "a82cdddb7fd10b72",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "6ee977d4f1249dfeb718b08cff15452816e1c92f614040805d3f45be52102b08",
+    "rowCount": 5,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "hire_year"
+        },
+        {
+          "name": "hires"
+        }
+      ],
+      "rows": [
+        {
+          "hire_year": "2020",
+          "hires": "1"
+        },
+        {
+          "hire_year": "2021",
+          "hires": "2"
+        },
+        {
+          "hire_year": "2022",
+          "hires": "2"
+        },
+        {
+          "hire_year": "2023",
+          "hires": "3"
+        },
+        {
+          "hire_year": "2024",
+          "hires": "3"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "random-1": {
+    "hash": "d9028d8d35e24cff67ad92e76fac6da77dc2896b7d8fd1c5d0319e18edff2f0a",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "a23ed0cfc73e429c235903e61fed2dc5dbbd0e744f617a1f2909fb720abda44a",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "78e2c9cfd4afa9c10dffe697dc70f2ff8ef8258977e79ddaf1e56f6ae8beb80f",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "0ba5977deab48f75cb1254f220ed75ef57c1030510495b4fba8ac999361599dd",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "b4bbc7fa2b678c72e7901f8488262e025de23a846237f03992bfe06348842f67",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "538b110a90efec63a80e6a1a327f23a87afd38c420d8d792ebad194a5c5951a9",
+    "rowCount": 6,
+    "columns": [
+      "hire_year",
+      "hires"
+    ],
+    "ms": 15
+  }
+}

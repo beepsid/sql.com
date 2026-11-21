@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "909e236d0529e966",
+    "wrong": "c248cd2e40a46bd0"
+  },
+  "sample": {
+    "hash": "2c49056a46560059134385531c395ddce2178d4b95508f9c923f3ecee65281aa",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "status"
+        },
+        {
+          "name": "orders"
+        },
+        {
+          "name": "pct_of_orders"
+        }
+      ],
+      "rows": [
+        {
+          "status": "completed",
+          "orders": "11",
+          "pct_of_orders": "78.6"
+        },
+        {
+          "status": "cancelled",
+          "orders": "2",
+          "pct_of_orders": "14.3"
+        },
+        {
+          "status": "refunded",
+          "orders": "1",
+          "pct_of_orders": "7.1"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "5d1f526cb33b100c2ff8bfcee2f9cd5e9d66317dbbc6578f3b7885beb869ffba",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "aee599173bc2e88a349ab9438215a4fd5ebb897edca945f0966f2f2c0f77e6fd",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "9d37bad9523d315cab83b5818b07bdb611cbb9bd04ab80d0c45af130294e2230",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "b1033b9a4a18a4bfe96429ca9c857036fb5328a03809f324c0c2bea14d591a8a",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "aaf59d59afefcd5b1d30bba8df7eb591c25658df6031be564466c12f6d6cae0d",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "27f234371e01ee83f42a806acb42804c589120276584f815091450d7aed6176b",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "f3630952bf158b2d5be1efff126734b1b0e6584a519917c4212a4bc5b1836077",
+    "rowCount": 3,
+    "columns": [
+      "status",
+      "orders",
+      "pct_of_orders"
+    ],
+    "ms": 18
+  }
+}

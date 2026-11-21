@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "data": "e6533f68d1facba4",
+    "solution": "69919bd327c09fb5",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "d1e006eb945c0310d43f94e6692583b3ee577320aca8d970770497399acd341c",
+    "rowCount": 11,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "level"
+        },
+        {
+          "name": "reports_total"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "name": "Vikram",
+          "level": "1",
+          "reports_total": "10"
+        },
+        {
+          "emp_id": "2",
+          "name": "Anita",
+          "level": "2",
+          "reports_total": "3"
+        },
+        {
+          "emp_id": "3",
+          "name": "Rohit",
+          "level": "3",
+          "reports_total": "1"
+        },
+        {
+          "emp_id": "4",
+          "name": "Meera",
+          "level": "3",
+          "reports_total": "0"
+        },
+        {
+          "emp_id": "5",
+          "name": "Isha",
+          "level": "4",
+          "reports_total": "0"
+        },
+        {
+          "emp_id": "6",
+          "name": "Sameer",
+          "level": "2",
+          "reports_total": "3"
+        },
+        {
+          "emp_id": "7",
+          "name": "Pooja",
+          "level": "3",
+          "reports_total": "0"
+        },
+        {
+          "emp_id": "8",
+          "name": "Dev",
+          "level": "3",
+          "reports_total": "0"
+        },
+        {
+          "emp_id": "9",
+          "name": "Kabir",
+          "level": "3",
+          "reports_total": "0"
+        },
+        {
+          "emp_id": "10",
+          "name": "Nisha",
+          "level": "2",
+          "reports_total": "1"
+        },
+        {
+          "emp_id": "11",
+          "name": "Arjun",
+          "level": "3",
+          "reports_total": "0"
+        }
+      ],
+      "total": 11
+    }
+  },
+  "case-05-deep-tree": {
+    "hash": "6fe9495730f1e3fec9c1e6e53504e3a8937563308cecace94cb2d24bcce1b2c4",
+    "rowCount": 12,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "5e9edfbb7c5815af2b5816255a646b23db4afa1cc3cf9556b4129eebbcd18cbb",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "7740fe78486d19456f3b171ff98cc973b19ea295740089b873332530460730cc",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 3
+  },
+  "random-3": {
+    "hash": "af292c336dd3fd9e2ce0dbce4a10ff232f632168f76b327bf93f9a9778a30fdc",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "fa5676c3d74021a4363d80dcfa8845574660639361ee63b1116601fa20a48afb",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 3
+  },
+  "random-5": {
+    "hash": "e116892d39b537b080c27942ee7adc58232c70e4b99541fc3c0a474ba74ffbfd",
+    "rowCount": 40,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 3
+  },
+  "large": {
+    "hash": "e0b91866a77935e3b86a2fd1cb797759be861468ddbdc74416eff9e5b184084e",
+    "rowCount": 20000,
+    "columns": [
+      "emp_id",
+      "name",
+      "level",
+      "reports_total"
+    ],
+    "ms": 319
+  }
+}

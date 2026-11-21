@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "ffe0d829b13b1d79",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "2bfa0e304a7fa4f66d399dcbfb869335018480c62f17dad0a54122100ea8e137",
+    "rowCount": 3,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "category"
+        },
+        {
+          "name": "products"
+        },
+        {
+          "name": "cheapest"
+        },
+        {
+          "name": "priciest"
+        },
+        {
+          "name": "avg_price"
+        }
+      ],
+      "rows": [
+        {
+          "category": "Accessories",
+          "products": "3",
+          "cheapest": "25.00",
+          "priciest": "40.00",
+          "avg_price": "30.00"
+        },
+        {
+          "category": "Audio",
+          "products": "3",
+          "cheapest": "80.00",
+          "priciest": "200.00",
+          "avg_price": "120.00"
+        },
+        {
+          "category": "Laptops",
+          "products": "2",
+          "cheapest": "900.00",
+          "priciest": "1500.00",
+          "avg_price": "1200.00"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "599af0b609ea4d48a7b2befe6c18f10568e5f58ef5439226e2942bc0e20bb968",
+    "rowCount": 3,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "d20911daa01b68a49e1fab1fde6a16a0e468115614c64efd6db68862c1e7492c",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "c692224aa42d520bd4f6c3a007ad569a6a698353d84d620992704830c3f8e385",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "fe6360bcbbc913a3e89c05d5d46c8f14c1a745006b61b6ba3716e9fc55c75a78",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "9de398c430187d0bc74edc50650c454786304977ed6f542c393fc8079d40e419",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "bc97c779772221b67672895517ac983898ca97bdb495fc5100a73f7028ea7512",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "e8662140231b05d3be61ad23b5ecc6f5341c83323bf9b497368462a07341ed83",
+    "rowCount": 5,
+    "columns": [
+      "category",
+      "products",
+      "cheapest",
+      "priciest",
+      "avg_price"
+    ],
+    "ms": 2
+  }
+}

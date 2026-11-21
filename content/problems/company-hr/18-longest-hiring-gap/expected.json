@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "efcf05123572835c",
+    "solution": "d0ad65b6103db6fc",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "5d74c07a8b7b999a13be15fc19fb6f97cd2d6c83989a8056979e4ab5bc6792df",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "longest_gap_days"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "longest_gap_days": "522"
+        },
+        {
+          "dept_name": "Finance",
+          "longest_gap_days": "354"
+        },
+        {
+          "dept_name": "Sales",
+          "longest_gap_days": "613"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-07-anniversaries-and-same-day-hires": {
+    "hash": "05cbbefa6a798a0ea3dba7c1f72b15d6ede1418b9ecee42586fc13f36e37ebbd",
+    "rowCount": 1,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 7
+  },
+  "random-1": {
+    "hash": "ffee2c65de685e068e0591738303268aa59c3275b89403c65924bd1cadfab549",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "d1b5bceab05218da72d7925be02c562e3dee7560344d063dc21a74bb917217b7",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "42f298f089ff589d054b74ef29b82ec8ac994708c36a419ec297ebc95b479297",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "2286f4e8b70870d428880b1a756a016ca8a4dbe1f5d92b65179dc894d4a619fc",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "6ff3809fcfba750c2f01cd7f3ff14e685122f1163ede9a83bc04ad1580402861",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "019ffd7d614b3b943ae7a37e4970b1908dc8bdac72744103472496144b60c91c",
+    "rowCount": 132,
+    "columns": [
+      "dept_name",
+      "longest_gap_days"
+    ],
+    "ms": 41
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "92d9a35ed57568d2",
+    "wrong": "4c332c832521e76c"
+  },
+  "sample": {
+    "hash": "2e8d4a2bf84563bcd31fa7e633ddc5c6b469d6084b10fbb5815994cf4b266359",
+    "rowCount": 2,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "courier_id"
+        },
+        {
+          "name": "order_id"
+        },
+        {
+          "name": "other_order_id"
+        }
+      ],
+      "rows": [
+        {
+          "courier_id": "1",
+          "order_id": "1",
+          "other_order_id": "2"
+        },
+        {
+          "courier_id": "2",
+          "order_id": "12",
+          "other_order_id": "13"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "6c890c929c25ef6c47fd589f86eea8a0439b5ce04fd755d408c63a215401ddc9",
+    "rowCount": 1,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "2acd703900f437b40ee2a63fb51d818bb83e5e99c0bdf7bfcf4e04d72d056314",
+    "rowCount": 8,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "97a1764cb8d7794d8d05a2ce01d6d3b306edd0d9ce3bbf710e1857d75bccfcd4",
+    "rowCount": 9,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "53e12ad4ba075e252009c06eddcb983177669a5fea1a9299dc71d859be1786f6",
+    "rowCount": 7,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "fa798cdf0eddb468cbcb1273f958a827c109d024b025f1f36cb421ca12613d6b",
+    "rowCount": 9,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "4e1b1fd8e88761c4fa1a2f6a48a87cb20a16f9c420738345a94ac4e81128c6ac",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "dc6c9ee3bee19ab5028582bf296a91d139eb1e7a3e61a88a93e4dcea58b8b260",
+    "rowCount": 67912,
+    "columns": [
+      "courier_id",
+      "order_id",
+      "other_order_id"
+    ],
+    "ms": 571
+  }
+}

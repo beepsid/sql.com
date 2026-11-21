@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "data": "c936f5707969d388",
+    "solution": "b28838498c58472a",
+    "wrong": "0615b2e1874ce2ae"
+  },
+  "sample": {
+    "hash": "750c68749ec1372b0c431dd7e721b9c0f62f5585b4eae5c2e350efa8db3508c2",
+    "rowCount": 3,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "salary"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "name": "Vikram",
+          "salary": "250000"
+        },
+        {
+          "emp_id": "4",
+          "name": "Meera",
+          "salary": "160000"
+        },
+        {
+          "emp_id": "2",
+          "name": "Anita",
+          "salary": "150000"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "631b6c18d1b42231a531bed231aa3bd3773cd187a4fd13e61800236f93f7d6b7",
+    "rowCount": 16,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "bf1c471bc66879facdd62df369f1cd25638c32e5788c23056bd10c9b5ea5d125",
+    "rowCount": 18,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "4c2304f6888622f3d4bf2137ab2f4e9f242b48c743eea229e82cc0603a2da46a",
+    "rowCount": 15,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "1327b22a4f3c36e34ec0f232bb548ff9be8a926d9592c0fb0c1747c608973113",
+    "rowCount": 12,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "c7c571a1faa8f1c5617b281fe0e18177cba127c0413c2c3a839a9da2708f69dc",
+    "rowCount": 17,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "982341ba2dfadc894a231e3f8204823bda225d68881ef18c7789de583ac01324",
+    "rowCount": 7966,
+    "columns": [
+      "emp_id",
+      "name",
+      "salary"
+    ],
+    "ms": 60
+  }
+}

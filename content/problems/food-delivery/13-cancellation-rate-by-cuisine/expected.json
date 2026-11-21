@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "797bc3c155ddbb27",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "0baeb9313542ed3bce0aff9063244b729c3e4f2888c205a7770d1aeb4731be74",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 5,
+    "output": {
+      "fields": [
+        {
+          "name": "cuisine"
+        },
+        {
+          "name": "orders"
+        },
+        {
+          "name": "cancelled"
+        },
+        {
+          "name": "cancel_pct"
+        }
+      ],
+      "rows": [
+        {
+          "cuisine": "Burgers",
+          "orders": "3",
+          "cancelled": "0",
+          "cancel_pct": "0.0"
+        },
+        {
+          "cuisine": "Chinese",
+          "orders": "4",
+          "cancelled": "1",
+          "cancel_pct": "25.0"
+        },
+        {
+          "cuisine": "Desserts",
+          "orders": "3",
+          "cancelled": "0",
+          "cancel_pct": "0.0"
+        },
+        {
+          "cuisine": "Healthy",
+          "orders": "3",
+          "cancelled": "0",
+          "cancel_pct": "0.0"
+        },
+        {
+          "cuisine": "Indian",
+          "orders": "5",
+          "cancelled": "1",
+          "cancel_pct": "20.0"
+        },
+        {
+          "cuisine": "Italian",
+          "orders": "2",
+          "cancelled": "0",
+          "cancel_pct": "0.0"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "9dd3a6f0ea20e7d02babe21425354ce305ae42be7280a32be44e655895cd9cda",
+    "rowCount": 2,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "2b7b2d2ffc09ff8e1ac6f71c1080e87746a3346babfb7f088ff58e638605101d",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "86d89b37c32cac479547c2dfd692bbdfd1b971e95764e4787b833f2b644ab96c",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "80f328f3673254392e11d785d53cb18aa3aee4a2e99df49bbba1342bf3dcfbd1",
+    "rowCount": 5,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "d51434ebeaba28af94078299b8f6dfe98bccb5b6a2444e7f8e0964e48ad7f10e",
+    "rowCount": 4,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "ec3579f59d225c07458c6660138c3cd886c0cac3bc101f4cd487c912796b9ef2",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "e29a053d1b946e8986cc15c8ddf2ab239db99879796c8a65d3a3cbf170c1e6fb",
+    "rowCount": 6,
+    "columns": [
+      "cuisine",
+      "orders",
+      "cancelled",
+      "cancel_pct"
+    ],
+    "ms": 11
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "f89e233531341d8d",
+    "wrong": "332454d77632322f"
+  },
+  "sample": {
+    "hash": "c114ba266cd2011ace8900d622e0746b88a6ae05a53315f7362d60807007cf5f",
+    "rowCount": 14,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "length"
+        }
+      ],
+      "rows": [
+        {
+          "title": "The Last Monsoon",
+          "length": "long"
+        },
+        {
+          "title": "Paper Rockets",
+          "length": "short"
+        },
+        {
+          "title": "Midnight Chai",
+          "length": "normal"
+        },
+        {
+          "title": "The Quiet Hills",
+          "length": "normal"
+        },
+        {
+          "title": "Ghost Station",
+          "length": "normal"
+        },
+        {
+          "title": "Theory of Rain",
+          "length": "normal"
+        },
+        {
+          "title": "Street Cricket",
+          "length": "normal"
+        },
+        {
+          "title": "Red Lantern Inn",
+          "length": "short"
+        },
+        {
+          "title": "Orbit",
+          "length": "long"
+        },
+        {
+          "title": "The Long Drive",
+          "length": "normal"
+        },
+        {
+          "title": "Signal Lost",
+          "length": "normal"
+        },
+        {
+          "title": "Monsoon Diaries",
+          "length": "normal"
+        },
+        {
+          "title": "Two Tickets",
+          "length": "short"
+        },
+        {
+          "title": "Night Shift",
+          "length": "normal"
+        }
+      ],
+      "total": 14
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "9960201dca6b6c9cbb7eb04432860b28a0f70b0585204c94fe1baa668437005b",
+    "rowCount": 9,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "73e703815bdfff69e650e4fdb8c70dde87f8167ce7b34ee18fbf57d18d1fa725",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "e7d5b267cd7e3fbdf590eac11821894088c4b7c49f8a9926cbaa8792755893e4",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "6090dfa86b7ef05b897f27da0e4500612452a07c0d961014b18898cc3a394d48",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "4522148b249e413a44122c576dcd266212a5661dc65fd4c9c6543f9dc895075a",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "ee981aa689c601ce445eb38c6a7b7f3a264fcbf0e196de6beb42abbd95248592",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "bca28c93786bf39d798734b92aaf59241b740d79a4294d2d3bab702cd7e5fb0d",
+    "rowCount": 20000,
+    "columns": [
+      "title",
+      "length"
+    ],
+    "ms": 87
+  }
+}

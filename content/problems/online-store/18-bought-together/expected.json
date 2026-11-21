@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "b6dc1cd373bd9ce3",
+    "wrong": "8dc7203e71121b5b"
+  },
+  "sample": {
+    "hash": "23f10f8cbc93e033afcd013848ad81002ddd18584cb9d8a67ca03d872331545b",
+    "rowCount": 5,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "product_a"
+        },
+        {
+          "name": "product_b"
+        },
+        {
+          "name": "orders"
+        }
+      ],
+      "rows": [
+        {
+          "product_a": "1",
+          "product_b": "3",
+          "orders": "1"
+        },
+        {
+          "product_a": "1",
+          "product_b": "7",
+          "orders": "1"
+        },
+        {
+          "product_a": "3",
+          "product_b": "4",
+          "orders": "1"
+        },
+        {
+          "product_a": "6",
+          "product_b": "8",
+          "orders": "1"
+        },
+        {
+          "product_a": "7",
+          "product_b": "8",
+          "orders": "1"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "432d11db46a4eb662176a5b98a9594edc88b9c083267b7fa23a85d657d3e3ec5",
+    "rowCount": 0,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "b12c8f970fd865e02adb4e14fd8ace211e4cd875b5f19870c27e4bb0527247d6",
+    "rowCount": 2,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "d68831a1657c6107fa81bfdf9336fac3bc6a64c0bff9abf796037f516456635b",
+    "rowCount": 63,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "e921e72413fe597c4da2cef74bc78cc4629aa232ab3358f1c02eb6afb97d21b7",
+    "rowCount": 69,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "f48a9f3d3159062ba4686d9425841987bdb91adaf55f481d039332fa4a460a1e",
+    "rowCount": 69,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "1f9822f4f95f65d74d4493af0ce8c2f436c4b54a765ce6290fe52bfecf6085ad",
+    "rowCount": 72,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "ff91b7bd5dde851fdbada05d159966731e37f2134a2fc7e8ddba7f5e5e467afb",
+    "rowCount": 75,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "bd756fdc55a7273b678959c62e84adec75dbe3d30f89b414d7b2e8f5e57ad352",
+    "rowCount": 41347,
+    "columns": [
+      "product_a",
+      "product_b",
+      "orders"
+    ],
+    "ms": 476
+  }
+}

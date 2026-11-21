@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "fe7645e40cd83db5",
+    "wrong": "ed34ed56a9d954d3"
+  },
+  "sample": {
+    "hash": "e182a000ef034ff881a531b6738d82e6b0baaa9974cbadceaf583d44734d14fd",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "genre"
+        },
+        {
+          "name": "release_year"
+        }
+      ],
+      "rows": [
+        {
+          "title": "Paper Rockets",
+          "genre": "Comedy",
+          "release_year": "2021"
+        },
+        {
+          "title": "Street Cricket",
+          "genre": "Comedy",
+          "release_year": "2023"
+        },
+        {
+          "title": "Night Shift",
+          "genre": "Horror",
+          "release_year": "2023"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "c03f24499087206edfa42ec4d3f9497f2505bd8f06652989fcc7c9425f77d0ed",
+    "rowCount": 3,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "9d7fe0ea0787a18aa0adbc85b4364499c5170c50631835a3f668299bf715517d",
+    "rowCount": 12,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "dc561b7eaea5a786d101d63b35bb9acf2a2ef30ea08b435643d59a7a513ba1a8",
+    "rowCount": 8,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "15bae17d8efd2037775f7272f2901ff102eade7da0c54a542134ebef0ae1ad81",
+    "rowCount": 8,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "e92a59a033f6c3809229c4c82fcfe7ce6dab800490d47439dcaa2c4599425847",
+    "rowCount": 6,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "dbe33fa6147edda9e4db0c750c7c934e6cd4c2420bfbe628cde1f42ef998b264",
+    "rowCount": 7,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "eb604dd6503a60a139e5adb5b28bd4ac4aae64f889a4167220245ddc9ab181bc",
+    "rowCount": 1240,
+    "columns": [
+      "title",
+      "genre",
+      "release_year"
+    ],
+    "ms": 12
+  }
+}

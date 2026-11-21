@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "c7f0b1df384695cc",
+    "wrong": "fb82a931fa3ed66f"
+  },
+  "sample": {
+    "hash": "05888e6342e32280e4970046d39d59c50f7e5dfb8859c57d021cb046ec5939b0",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "delivered_orders"
+        },
+        {
+          "name": "tipped_orders"
+        },
+        {
+          "name": "tip_rate_pct"
+        }
+      ],
+      "rows": [
+        {
+          "delivered_orders": "18",
+          "tipped_orders": "10",
+          "tip_rate_pct": "55.6"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "0ecf8696740c968702ff9512915b1a505cdd8871ffcd1df173ca79282416f4ec",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "752de5db69e3cbea682f25e0cdf17403d0ad9dad0cf5f01d7a12ddd9fcec7e18",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "37f90b004305b6306d28d59822871b83bbb6b9fb3ac2d520752fa46bfeaaccbd",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "abc46e468873350fe6ae664d7d65c392dd8b45e44f3ea72da46c845a520bf9a1",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "24f958e34a9838b5352f1d350baccba3c8430be5d0bff9c9dfebb62ade296cdc",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "764217412ff466090d508b859d5f726f50a572c0b69b0076085fb9510cd65c0c",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "c8a2227f34384a20d2aaa6e72ca77deafac75e0d348f15e83b61477353819ca6",
+    "rowCount": 1,
+    "columns": [
+      "delivered_orders",
+      "tipped_orders",
+      "tip_rate_pct"
+    ],
+    "ms": 6
+  }
+}

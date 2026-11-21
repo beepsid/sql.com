@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "data": "b8a5586916495acb",
+    "solution": "901ee3c03d15de37",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "c2712f872bc3395a7861b310655d638f97fc2ef255ff5650cc9dcb84ee71ff64",
+    "rowCount": 6,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "platform"
+        },
+        {
+          "name": "country"
+        },
+        {
+          "name": "users"
+        }
+      ],
+      "rows": [
+        {
+          "platform": "android",
+          "country": "IN",
+          "users": "1"
+        },
+        {
+          "platform": "android",
+          "country": "US",
+          "users": "1"
+        },
+        {
+          "platform": "ios",
+          "country": "GB",
+          "users": "1"
+        },
+        {
+          "platform": "ios",
+          "country": "IN",
+          "users": "1"
+        },
+        {
+          "platform": "web",
+          "country": "IN",
+          "users": "1"
+        },
+        {
+          "platform": "web",
+          "country": "US",
+          "users": "1"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "random-1": {
+    "hash": "6f754d732a4f3248ec1d79c2887a33f268cd4a19a893b267e86142b40e0a8e7e",
+    "rowCount": 14,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "59edb7192b43972d56db2f1ee4bcbc94f212f11bebd7765647ea245f8a36e948",
+    "rowCount": 15,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "c01bae8286d7fdae8687b7eae4e7f3ba0a6bd68db71015444fcfcc18c1ec3f85",
+    "rowCount": 14,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "bc4eefa13b13fc09085ad02abfe89518c03ea60a7ffe144e09fc112b67233315",
+    "rowCount": 14,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "a95426d6e7de36435b5bb5bbdf8ed282d80ba711935972051b43209f8309bd78",
+    "rowCount": 15,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "104e7fdf9c1b8f6b401b6201fde59d13a9b683821f5609de0f6507b8ef08b846",
+    "rowCount": 15,
+    "columns": [
+      "platform",
+      "country",
+      "users"
+    ],
+    "ms": 2
+  }
+}

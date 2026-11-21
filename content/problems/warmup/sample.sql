@@ -1,0 +1,15 @@
+INSERT INTO movies VALUES
+(1,  'The Last Monsoon', 'Drama',   'Hindi',   2019, 152, 8.1),
+(2,  'Paper Rockets',    'Comedy',  'English', 2021, 98,  7.2),
+(3,  'Midnight Chai',    'Comedy',  'Hindi',   2016, 110, 7.8),
+(4,  'The Quiet Hills',  'Drama',   'English', 2012, 135, NULL),
+(5,  'Ghost Station',    'Horror',  'Hindi',   2018, 100, 6.4),
+(6,  'Theory of Rain',   'Drama',   'English', 2020, 150, 8.1),
+(7,  'Street Cricket',   'Comedy',  'Hindi',   2023, 124, NULL),
+(8,  'Red Lantern Inn',  'Horror',  'English', 2014, 95,  5.9),
+(9,  'Orbit',            'Sci-Fi',  'English', 2022, 171, 8.6),
+(10, 'The Long Drive',   'Comedy',  'English', 2015, 101, 6.8),
+(11, 'Signal Lost',      'Sci-Fi',  'Hindi',   2021, 140, 7.2),
+(12, 'Monsoon Diaries',  'Romance', 'Hindi',   2017, 128, 6.9),
+(13, 'Two Tickets',      'Romance', 'English', 2023, 99,  NULL),
+(14, 'Night Shift',      'Horror',  'Hindi',   2023, 100, 7.5);

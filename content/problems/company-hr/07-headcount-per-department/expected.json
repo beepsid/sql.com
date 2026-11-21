@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "data": "5c57e9ff3de47f92",
+    "solution": "43af5af7175a0dab",
+    "wrong": "72a37accd54dae76"
+  },
+  "sample": {
+    "hash": "e12e9a125307bda14b74136e3db17bffe6249c6bdcf453e4205fe4f3428eaed3",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "headcount"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "headcount": "5"
+        },
+        {
+          "dept_name": "Finance",
+          "headcount": "1"
+        },
+        {
+          "dept_name": "Legal",
+          "headcount": "0"
+        },
+        {
+          "dept_name": "Sales",
+          "headcount": "3"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "614780ffc6be9356feb0e0904610a157fd6bb7a83c8020e74bb4fbadfd9dc898",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "case-07-anniversaries-and-same-day-hires": {
+    "hash": "c2dede20fe41fed51a6086b3d09864f28f3bb771f45f2305149cf02ef85c5dac",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "f3f9863a4df617be5eeb1c9b1ca064c3c7e0686d6184ac593cf074372c9a39d2",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "bcf321b282fcf00e3d535bfd70d6a7f50fa4a2bb3ec38cea1aaa1bdd0c75e027",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "9001ae6dd4d6b5966914280fd8a7d13f20b663b5d3c03dfaa8c97b271ab5b573",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "1320a39eaf3917a83145e78ceee972f052a37dcf6c1cac57bfda5b0d2d81ac00",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "30d008245b4b9753eee78b05a8c80f704e447c55e1149f6e2e570ebc4c296a3c",
+    "rowCount": 5,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "f03f381b7f8b15376f55f6ac039b63852d577466f097e29d1e0babffc96c2b3b",
+    "rowCount": 133,
+    "columns": [
+      "dept_name",
+      "headcount"
+    ],
+    "ms": 10
+  }
+}

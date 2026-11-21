@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "24e0870fea0f5fe1",
+    "wrong": "9343525c263561f3"
+  },
+  "sample": {
+    "hash": "564e4e0e44a821ed3c86e3912e789021dfe85a46b1b6f707e44a61f04c404878",
+    "rowCount": 4,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "courier_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "deliveries"
+        },
+        {
+          "name": "earnings"
+        }
+      ],
+      "rows": [
+        {
+          "courier_id": "1",
+          "name": "Ravi",
+          "deliveries": "7",
+          "earnings": "330.00"
+        },
+        {
+          "courier_id": "2",
+          "name": "Sana",
+          "deliveries": "5",
+          "earnings": "220.00"
+        },
+        {
+          "courier_id": "3",
+          "name": "Tom",
+          "deliveries": "6",
+          "earnings": "220.00"
+        },
+        {
+          "courier_id": "4",
+          "name": "Leela",
+          "deliveries": "0",
+          "earnings": "30"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "390e2c397af272f4fe1973b471263c1d5d816bb0ebc439b68caf3fc320e32ebd",
+    "rowCount": 3,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "dc631156a8bbbc19df0929997705a55eaa68561f231f2841adbd64e9c0620533",
+    "rowCount": 6,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "0baf9dc42f3b09105aae5303426f2fc84bfe6c12390d9472654b4b2eea72fea4",
+    "rowCount": 6,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "ba2c0d44b660ad6ef6b5fc4fc4c11078ecb2e380d602e48ced44b5f44ea2772d",
+    "rowCount": 6,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "1952e4be396c8bab9090d933dee97d5f59fa1f2fde992493ded6f70b95e86e27",
+    "rowCount": 6,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "b7f307adba9404bea960e354298ea8efdc3392ba29994ac575e87a65a4f56576",
+    "rowCount": 6,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "4daeab0c753c9dc9e133871f0223b8aa194e32fd63c290b3395e1d1de1b2cde8",
+    "rowCount": 400,
+    "columns": [
+      "courier_id",
+      "name",
+      "deliveries",
+      "earnings"
+    ],
+    "ms": 19
+  }
+}

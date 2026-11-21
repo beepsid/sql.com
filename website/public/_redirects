@@ -1,0 +1,9 @@
+# serve the google search console verification file at its exact .html address
+# (pages normally redirects foo.html -> foo, which google might not accept)
+/google3d1db352936bc9b9.html /google3d1db352936bc9b9 200
+
+# cloudflare pages reserves a top level "functions" folder for server code, so
+# wrangler never uploads out/functions/. the cheat sheet lives at /sql-functions/,
+# these keep old links working. don't name any route "functions".
+/functions /sql-functions/ 301
+/functions/ /sql-functions/ 301

@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "f9c75c0b45a2fc72",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "bb190b9a528cbbc3065ad574f8c46d3f561ecf2e350321160dc2e8ee1bd66a2b",
+    "rowCount": 3,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "city"
+        },
+        {
+          "name": "orders"
+        }
+      ],
+      "rows": [
+        {
+          "city": "Mumbai",
+          "orders": "9"
+        },
+        {
+          "city": "Bengaluru",
+          "orders": "6"
+        },
+        {
+          "city": "Delhi",
+          "orders": "5"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "bd86cb68a5047420789d5478031077bf5e05a9a52ee6d98b9536d4e9aee58641",
+    "rowCount": 1,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "ad075de7d6f0dedeb3bbd33c47eaf598869491d05bf3eff32d1d3a5254895888",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "887272956a5c9621b2eac1a360e419c08e5dc8d67b3538939df12066856637f7",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "cac2daaeb082a341027c86852e19fc96abe9a3f4992910c8e71e6460fae22477",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "c08dd068a87d87f0b4afd65b1c14f913d35fb0d1236d701d0b222e14eca29fd4",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "65cfecb23433913a67bc09e4b9263e2a4f853a118aa1bb15465c96f055b84486",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "50430f416fbecd73df2b4f323cad244e24e62298174f15bcfd9c1fe97d27ab80",
+    "rowCount": 4,
+    "columns": [
+      "city",
+      "orders"
+    ],
+    "ms": 9
+  }
+}

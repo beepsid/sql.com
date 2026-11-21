@@ -1,0 +1,32 @@
+{
+  "name": "sql-notes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "problems": "node scripts/build-problems.mjs",
+    "predev": "npm run problems",
+    "dev": "next dev",
+    "prebuild": "node scripts/build-problems.mjs --strict",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build && wrangler pages deploy --branch main"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.9",
+    "highlight.js": "^11.9.0",
+    "lucide-react": "^0.294.0",
+    "marked": "^11.1.1",
+    "next": "^14.2.35",
+    "next-themes": "^0.2.1",
+    "node-sql-parser": "^5.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "wrangler": "^4.151.0"
+  }
+}

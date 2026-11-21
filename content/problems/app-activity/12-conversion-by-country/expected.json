@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "data": "b8a5586916495acb",
+    "solution": "ca618a9c16fb639d",
+    "wrong": "4f23b73d868247ba"
+  },
+  "sample": {
+    "hash": "d12af5e5c78ce47e621770b571aee892b8273e63746b2f00e9daf9030efaedf2",
+    "rowCount": 3,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "country"
+        },
+        {
+          "name": "users"
+        },
+        {
+          "name": "purchasers"
+        },
+        {
+          "name": "conversion_pct"
+        }
+      ],
+      "rows": [
+        {
+          "country": "GB",
+          "users": "1",
+          "purchasers": "1",
+          "conversion_pct": "100.0"
+        },
+        {
+          "country": "IN",
+          "users": "3",
+          "purchasers": "2",
+          "conversion_pct": "66.7"
+        },
+        {
+          "country": "US",
+          "users": "2",
+          "purchasers": "0",
+          "conversion_pct": "0.0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "83d22397911a5ec13d8845fb86185eadb88c4a66ec2b86b61262509a87cf4bc8",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "9d0ef99a99ffd4bb5e1d4cb87dac5e3606010e3e57c6b2416b63e2e758ad1b2a",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "9423c06a789c747ed52ad636d2c613a19c38986f659f4994e131d777675c25b3",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "930f869490970f4e6ac624eef306c9533890d5b14ccd2fa2eb2b5b17bd9edee0",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "568411d37f0176813d82c69a8e90f3b4c53bd6daa946542bf18971eed1de162b",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "6748b808b89ca1cb1aaaa405e840a87c2b9ef99b31b7b28fb441d1679968049b",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "users",
+      "purchasers",
+      "conversion_pct"
+    ],
+    "ms": 20
+  }
+}

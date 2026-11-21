@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "cc6ae3f3f9faae0d",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "c12e31ac66943c5976fe6577d47efe57777b808ca995af4916d0575947dddf3d",
+    "rowCount": 6,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "restaurant_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "avg_minutes"
+        }
+      ],
+      "rows": [
+        {
+          "restaurant_id": "1",
+          "name": "Spice Route",
+          "avg_minutes": "38.8"
+        },
+        {
+          "restaurant_id": "2",
+          "name": "Wok This Way",
+          "avg_minutes": "36.3"
+        },
+        {
+          "restaurant_id": "3",
+          "name": "Pasta La Vista",
+          "avg_minutes": "40.5"
+        },
+        {
+          "restaurant_id": "4",
+          "name": "Burger Theory",
+          "avg_minutes": "34.7"
+        },
+        {
+          "restaurant_id": "5",
+          "name": "Green Bowl",
+          "avg_minutes": "33.3"
+        },
+        {
+          "restaurant_id": "6",
+          "name": "Sugar Rush",
+          "avg_minutes": "21.7"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "452e8fafea6501fad105560e8f32ab44f8285ac86339051ba2510882338cd834",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "13509f595aa5bbecfe7acc8be07d19bde8b36824bfae19d53a2f86547ab1b76c",
+    "rowCount": 10,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "2f9ce00ba2f7d36025831d18db88d23ac3247383ba443817cab8517309d75f26",
+    "rowCount": 10,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "e931488804c326dd31447ad486d7dd1a92d27b0f6e9af0d474bb09d9131b93b3",
+    "rowCount": 9,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "7e6b0fc8947769d17a60808b5c972caddbc3ad073694f98fb16641ad389c8a1d",
+    "rowCount": 10,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "146fc2598fb8ae749188ceb18e1beca54d86fd83cfd998f9d93bd776a9055017",
+    "rowCount": 10,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "5a3842804ef10f5fa8b2085cd05773bd5ce47ee59795a264f65b42e12069076b",
+    "rowCount": 498,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "avg_minutes"
+    ],
+    "ms": 27
+  }
+}

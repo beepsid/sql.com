@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "6b57f828ce998559",
+    "wrong": "6d99fdedcebac877"
+  },
+  "sample": {
+    "hash": "bbfcd8db64671694984348c566f58b15fbb29e2ecbd7dea32cbfc07449bad675",
+    "rowCount": 3,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "cohort_month"
+        },
+        {
+          "name": "customers"
+        },
+        {
+          "name": "reordered"
+        },
+        {
+          "name": "reorder_pct"
+        }
+      ],
+      "rows": [
+        {
+          "cohort_month": "2026-01-01",
+          "customers": "6",
+          "reordered": "4",
+          "reorder_pct": "66.7"
+        },
+        {
+          "cohort_month": "2026-02-01",
+          "customers": "3",
+          "reordered": "2",
+          "reorder_pct": "66.7"
+        },
+        {
+          "cohort_month": "2026-03-01",
+          "customers": "1",
+          "reordered": "0",
+          "reorder_pct": "0.0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "241d7aced95c19d2fcce5b8412bb364583d482f0bdb6fd2fd3056978ea29bb77",
+    "rowCount": 1,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "1190368db6cfe433d01d9c9dbaa6fb10be3676048001203eede3b19c383304c5",
+    "rowCount": 2,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "8fd7fc169480e104c864f43a8881789e95da0837aee153d1981dcf19c973330f",
+    "rowCount": 1,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "7fd15ba13b914a8039006dacd32ecfd488206933107365b3704d70ff5576942c",
+    "rowCount": 2,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "8041d9a1d7e025d431aeb9d464bad7e038bd20dd52ff378170bdfaa18b164bed",
+    "rowCount": 2,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "4a7653e7ee705d1309cab75a5197e6319d4c6596699b6855f05eaae3a13d8233",
+    "rowCount": 2,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "d44521cc1d85cb6be703c8dd83744427539af1a8810d138e7a4d990711798407",
+    "rowCount": 4,
+    "columns": [
+      "cohort_month",
+      "customers",
+      "reordered",
+      "reorder_pct"
+    ],
+    "ms": 23
+  }
+}

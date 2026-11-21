@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "data": "c936f5707969d388",
+    "solution": "4b53bf60b9e4c1aa",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "b634f02d58825e9f112d7e2a5a14ef7ca9890a5c9c0549190d070e8e501c7ba1",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "avg_salary"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "avg_salary": "150000.00"
+        },
+        {
+          "dept_name": "Finance",
+          "avg_salary": "110000.00"
+        },
+        {
+          "dept_name": "Sales",
+          "avg_salary": "106666.67"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "1189932e0246763d8aee023dadfccef07d0315c0782c192a7171ab518f23f4f5",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "1adffa3d8e98ce6c1a6f07d7e44e4b0508de0a06eaf0f972db1031c1127f3819",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "413ff0eb1d86b9d61d72eee5e0719132d53f28e7e04e68dd5ba17554140e5ddc",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "b9d308b2b2f06defb8e04e950573371212daf33b43ff5ae58e3fbf14e8cfeea3",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "15c4b5a8dffec88959bf7e9cdf4616fdfa541bc9fea044aabe4b2fa69f67d8bd",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "90f9cc24feffd643c49fdba89c9111ac5837db556ed5f61c6532d434774836bd",
+    "rowCount": 132,
+    "columns": [
+      "dept_name",
+      "avg_salary"
+    ],
+    "ms": 9
+  }
+}

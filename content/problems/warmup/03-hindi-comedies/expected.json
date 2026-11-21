@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "d926832662370c32",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "96010dd67c216c45b32ca1d792a106a92fd434053e1bf1315208c047753ff7cb",
+    "rowCount": 2,
+    "columns": [
+      "title"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        }
+      ],
+      "rows": [
+        {
+          "title": "Midnight Chai"
+        },
+        {
+          "title": "Street Cricket"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "42862599b53ee5a2dfac51fa78f182eb2ccce57e20f8b694745414231cc667b8",
+    "rowCount": 3,
+    "columns": [
+      "title"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "fb9a6e1b8fc225985ff0a96d42c368fa671deb1f408e49b0ce7e8f40ad55a69b",
+    "rowCount": 11,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "a722f62906cce48d7c747efacd1ecd8a0524e1f9196acc4e9598f80b590000d1",
+    "rowCount": 6,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "8ae5a5972890d96d6eff7cc3078e8fab39a689b2cd0723ff7e1abeca228eda98",
+    "rowCount": 8,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "0d96f0a8f253ab061c90dee48857ee7980cccd2634c31b6702cb2c22043858e8",
+    "rowCount": 2,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "8dd3e4484927690a7225a9a97ac245252644e1918ef173b6ec4b32b9a40bc174",
+    "rowCount": 6,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "437aa2f878befb8cdb540a9f12dd617cabc0cb05181d2c88167c10e0e42ba14c",
+    "rowCount": 1089,
+    "columns": [
+      "title"
+    ],
+    "ms": 7
+  }
+}
