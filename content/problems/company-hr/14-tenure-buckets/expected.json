@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "efcf05123572835c",
+    "solution": "690fb8143fa5f3ca",
+    "wrong": "8184c66a503d0a43"
+  },
+  "sample": {
+    "hash": "13c4284b587b8fe494edf1928388b9351154a7ab205aa700172c8929b7874ff1",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "bucket"
+        },
+        {
+          "name": "employees"
+        }
+      ],
+      "rows": [
+        {
+          "bucket": "1-3 years",
+          "employees": "2"
+        },
+        {
+          "bucket": "3-5 years",
+          "employees": "4"
+        },
+        {
+          "bucket": "5+ years",
+          "employees": "3"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-07-anniversaries-and-same-day-hires": {
+    "hash": "915fba225d29643ebf5dda3421d4cdf7d5035fa726a34d83a144aaa5e4b890b3",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "f6741e9bb6a82d6d7df5f4de91cdefae9ce9adc8a242ccf69110023c44756918",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "8b8767ed9af86e8fce0de607d2196cda3b7f97ceaa4cd8f147bc6a52ca763ff2",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "ee63660c384814203ab8016783f3ea50ffcc5add5540282e37d899d3eaff0071",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "587f7d9c723e106c012baaed954d4ea9a366cde723377479caace06d5ed37c50",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "295581fef6a7c76002056cf6924c08fb5e619e38958e6383e7e715136718252b",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "14c386c56cb6d1f73c86ef1ba806a125d79cedec1a8378079824aabcd3a3cb72",
+    "rowCount": 3,
+    "columns": [
+      "bucket",
+      "employees"
+    ],
+    "ms": 26
+  }
+}

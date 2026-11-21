@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "c69488ecabc567a0",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "7425f2843dca3075e1ee3d4cdf6c91c1cec6ddd77970ff37be77daf8ef4b018c",
+    "rowCount": 14,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "release_year"
+        }
+      ],
+      "rows": [
+        {
+          "title": "The Last Monsoon",
+          "release_year": "2019"
+        },
+        {
+          "title": "Paper Rockets",
+          "release_year": "2021"
+        },
+        {
+          "title": "Midnight Chai",
+          "release_year": "2016"
+        },
+        {
+          "title": "The Quiet Hills",
+          "release_year": "2012"
+        },
+        {
+          "title": "Ghost Station",
+          "release_year": "2018"
+        },
+        {
+          "title": "Theory of Rain",
+          "release_year": "2020"
+        },
+        {
+          "title": "Street Cricket",
+          "release_year": "2023"
+        },
+        {
+          "title": "Red Lantern Inn",
+          "release_year": "2014"
+        },
+        {
+          "title": "Orbit",
+          "release_year": "2022"
+        },
+        {
+          "title": "The Long Drive",
+          "release_year": "2015"
+        },
+        {
+          "title": "Signal Lost",
+          "release_year": "2021"
+        },
+        {
+          "title": "Monsoon Diaries",
+          "release_year": "2017"
+        },
+        {
+          "title": "Two Tickets",
+          "release_year": "2023"
+        },
+        {
+          "title": "Night Shift",
+          "release_year": "2023"
+        }
+      ],
+      "total": 14
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "fa30748bafd246742905bf9b57199da4974814b07b2ebc05d1bcbb4bb74cd0f4",
+    "rowCount": 9,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "7c81727239339635950c9da529f9846138050d4800500e22eb463d2334c5a8a8",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "3986ce04dff53b436bf5abec087770c32f0e18f5c0b2652b4f703531ba0e1f65",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "9448c8fe46f7b19bcb89596eef81de80020e769889c1bb297c366be96da00aa7",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "622a8885e13bda3384661d9fc77f4180db8062e2a90037d4d103ec55fb4f151e",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "33108a4eaf06aac40de319c5aa55ef1898bff6357d0006505d018aee69cab109",
+    "rowCount": 120,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "5bdb22429a2659ece6ba8c37ed90929535266ac08b582427574960eb8e02dd2b",
+    "rowCount": 20000,
+    "columns": [
+      "title",
+      "release_year"
+    ],
+    "ms": 126
+  }
+}

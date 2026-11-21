@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "9195e01c22df9f9d",
+    "wrong": "9e61ecc857314bc5"
+  },
+  "sample": {
+    "hash": "cd0d7f30ab062b511940948a4085f8c3c5d660e79494dd40588f1a1b9548fc4a",
+    "rowCount": 3,
+    "columns": [
+      "title"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "title"
+        }
+      ],
+      "rows": [
+        {
+          "title": "The Quiet Hills"
+        },
+        {
+          "title": "Street Cricket"
+        },
+        {
+          "title": "Two Tickets"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "e075a295fa0f60e4b4198b892c63bcd39db0fbf1815ef9e173551d8c692d6b21",
+    "rowCount": 3,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "d584e741c3341cac2a9cf6b21d1c795f981a86840f81221e9c7e7cf119e4a3fa",
+    "rowCount": 18,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "9d31b12a5ac508807d5171553e98d21c848c7c8c7d495a6f0598c17b0e415996",
+    "rowCount": 22,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "be962211f74df529c0db487a20447f4fe8c101bbfd7982626ebac4ede3c7371d",
+    "rowCount": 13,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "2be51c950851a9b6cee6646c5f164c68d6e1d585d90c32c889a3a27f45705623",
+    "rowCount": 23,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "fe5e1f51788f1676ac63e5a62212c942877c397f86080919861860ffb7f933b3",
+    "rowCount": 21,
+    "columns": [
+      "title"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "b6037c0fe7767b323a02e449c4ebc97e39877ae6647088608a022d47e140eeda",
+    "rowCount": 3016,
+    "columns": [
+      "title"
+    ],
+    "ms": 12
+  }
+}

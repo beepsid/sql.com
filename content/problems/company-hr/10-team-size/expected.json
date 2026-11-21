@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "data": "5d7b1706d2786237",
+    "solution": "c2047e811b6ae3d7",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "3b7fad2a2d5392701ff077d6e64faaefa0b645088f15ff2a9cfc41d01a49a81b",
+    "rowCount": 4,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "manager_id"
+        },
+        {
+          "name": "manager_name"
+        },
+        {
+          "name": "direct_reports"
+        }
+      ],
+      "rows": [
+        {
+          "manager_id": "1",
+          "manager_name": "Vikram",
+          "direct_reports": "3"
+        },
+        {
+          "manager_id": "2",
+          "manager_name": "Anita",
+          "direct_reports": "2"
+        },
+        {
+          "manager_id": "3",
+          "manager_name": "Rohit",
+          "direct_reports": "1"
+        },
+        {
+          "manager_id": "6",
+          "manager_name": "Sameer",
+          "direct_reports": "2"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-02-managers": {
+    "hash": "3b5c883029375bc2114209199ac4086ece416b4fae1d16ce4a6777e6ca10caf6",
+    "rowCount": 2,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "b834a63475253a02fb506b961c7d0441f4c344688b9c5c2966f00fe3d4d1aa34",
+    "rowCount": 19,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "bebf7c878a03b43df3e80a28f366f43630e54ee0cc172cd17d2d2c4d5290b587",
+    "rowCount": 20,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "4df6e78291b52c9005bb48fef08f4f8725429d3324289875af1c878f3fc7d022",
+    "rowCount": 15,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "8847957ca6c096ad856fd1dc1f30e44aef167d8083e138462e5677ce767d3529",
+    "rowCount": 16,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "7eeb146c09d6a062215ef629247db4808ea6e5d07aff68a39772380334646721",
+    "rowCount": 21,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "0f1e2e8d7689b863e20e18827273de1e9e2f4c76b0b9a744b43c8c99eaa5cbfe",
+    "rowCount": 8778,
+    "columns": [
+      "manager_id",
+      "manager_name",
+      "direct_reports"
+    ],
+    "ms": 89
+  }
+}

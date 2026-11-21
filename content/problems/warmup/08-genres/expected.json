@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "844471d8d30218c3",
+    "wrong": "6dab59560344d051"
+  },
+  "sample": {
+    "hash": "75abd9d3dba47805e07715c4b18b5b69c51540ce05d9c23399bb3f9ae9ceac33",
+    "rowCount": 5,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "genre"
+        }
+      ],
+      "rows": [
+        {
+          "genre": "Sci-Fi"
+        },
+        {
+          "genre": "Comedy"
+        },
+        {
+          "genre": "Romance"
+        },
+        {
+          "genre": "Horror"
+        },
+        {
+          "genre": "Drama"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "b4f0417d450e20911b2214e94e7669f4882951f20566d26c4be2d6e0082d3e40",
+    "rowCount": 3,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 0
+  },
+  "random-3": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "803f19a963bca17b90bfebe22ee43321359a4399a09afa9007b4475dca39e036",
+    "rowCount": 6,
+    "columns": [
+      "genre"
+    ],
+    "ms": 6
+  }
+}

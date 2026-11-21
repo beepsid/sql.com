@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "data": "fd3bd586c53f1715",
+    "solution": "4874845fe8a5af42",
+    "wrong": "1ebb13ebb7b8839a"
+  },
+  "sample": {
+    "hash": "6d4c56c826f25ef1e9224d84e3c0a850614c6db09305f1ae679571d75459c35a",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "movies"
+        },
+        {
+          "name": "rated"
+        },
+        {
+          "name": "avg_rating"
+        }
+      ],
+      "rows": [
+        {
+          "movies": "14",
+          "rated": "11",
+          "avg_rating": "7.3"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-01-ties-and-nulls": {
+    "hash": "fddd080e1a5cd0647693749a04e4192acb0eb810246bcaea7213fb52a3cf6cdd",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "3f2082b1c9fcbe2c4a0e743e5a0c10f6bc84279f78c8ef0350fb65b82c7292c4",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "1b96aa0843b5200815f594bbad0384c476c6d470fd4e54b4d44da3b313878e7f",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "d6216ea61716510c7a7095588f431afcdc07aef69dfb62241eaaefcec3cce94a",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "5b3be09b5cfd1acbb624a68901c03996fe2017402253d3134e04e9694ab7ebd2",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "0875ca655af2faf92724c2c59c8ba0926f6f2ea16395481230b984732970d0ba",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "42e3d3856ee8eb91e6e78c792821b024a0d7fb9f367f60247892534f2e807a2e",
+    "rowCount": 1,
+    "columns": [
+      "movies",
+      "rated",
+      "avg_rating"
+    ],
+    "ms": 5
+  }
+}

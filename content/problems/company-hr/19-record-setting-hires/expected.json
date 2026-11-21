@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "data": "efcf05123572835c",
+    "solution": "d3dc1a8cd36fe7bb",
+    "wrong": "812687b5f715b640"
+  },
+  "sample": {
+    "hash": "fc92d084cfc90a42ba7f471b74c9f85165fd22327c938a79dc990b826f059996",
+    "rowCount": 1,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "hire_date"
+        },
+        {
+          "name": "salary"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "name": "Vikram",
+          "hire_date": "2020-01-10",
+          "salary": "250000"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-07-anniversaries-and-same-day-hires": {
+    "hash": "f4dbd61f4ab97a8101575f8ccd732972a6800ed68fbc99e5ee81109c09b68e1e",
+    "rowCount": 5,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "95d556b4b30f6d61d2028986d2bd1765118d678e693b00cc69c0614c5e8a5906",
+    "rowCount": 6,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "8ee2f81d573bbd1941b670b0db2572f887983215254dd46ac42e2866a8ae203c",
+    "rowCount": 5,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "5be0811c846b058f7763811c8ce8e2c8243f162c173cdc779fb06fbd969fea7c",
+    "rowCount": 2,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "37eee2d4ede85edf9d661ffe9b801c5452fe094f4bcec9b9aff7c5ddbe4adce9",
+    "rowCount": 4,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "e2ed4d539dd836b35119d4164e77cbe6c173ed96e2fd24dc59548ba649053868",
+    "rowCount": 5,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "f61d4f01108b55eec2423dd11387261e3438c644e31663cddb173de054a52161",
+    "rowCount": 11,
+    "columns": [
+      "emp_id",
+      "name",
+      "hire_date",
+      "salary"
+    ],
+    "ms": 17
+  }
+}

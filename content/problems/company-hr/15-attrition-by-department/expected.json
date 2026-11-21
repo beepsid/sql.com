@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "data": "c936f5707969d388",
+    "solution": "a0b04664d689d754",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "d9560fd549fa91e72c129415a83ec1a60969b00ad7d713ef6c3d2f81d222df58",
+    "rowCount": 3,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "hired"
+        },
+        {
+          "name": "leavers"
+        },
+        {
+          "name": "attrition_pct"
+        }
+      ],
+      "rows": [
+        {
+          "dept_name": "Engineering",
+          "hired": "5",
+          "leavers": "0",
+          "attrition_pct": "0.0"
+        },
+        {
+          "dept_name": "Finance",
+          "hired": "2",
+          "leavers": "1",
+          "attrition_pct": "50.0"
+        },
+        {
+          "dept_name": "Sales",
+          "hired": "4",
+          "leavers": "1",
+          "attrition_pct": "25.0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "3fde08a244aac22d95c76aed3c58d6285a834679ed6b8f3dec0dd1a6070259fb",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "749207c17dc90d0584c7677208210f6c98554fa7230e13003de780d314dd4e6a",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "d0b43b3e611f1aa7aca0aa612dce7de7c3fbf058e5806c8d60756af9411ac666",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "bf1f084e943da8c6a935cb5fd3ac92fb9e5a9337c655a2972c332f077a92a949",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "9a9bb8dbf5b13fbad999b2793865721827a61376fb6dce79fc8571f6153ba19c",
+    "rowCount": 4,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "f727e26987a1cd97905bf6034cb2dcc316394cbc8e01c0c71800d15c1749e556",
+    "rowCount": 132,
+    "columns": [
+      "dept_name",
+      "hired",
+      "leavers",
+      "attrition_pct"
+    ],
+    "ms": 11
+  }
+}

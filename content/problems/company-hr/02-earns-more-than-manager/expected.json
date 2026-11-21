@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "data": "5d7b1706d2786237",
+    "solution": "ba5d9f2105a1c0e3",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "ac168f6dba78b4b7952675e2e645c7938296a460f362f2c5c9b4dcb498c661e7",
+    "rowCount": 2,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "name"
+        },
+        {
+          "name": "salary"
+        },
+        {
+          "name": "manager_name"
+        },
+        {
+          "name": "manager_salary"
+        }
+      ],
+      "rows": [
+        {
+          "name": "Kabir",
+          "salary": "130000",
+          "manager_name": "Sameer",
+          "manager_salary": "120000"
+        },
+        {
+          "name": "Meera",
+          "salary": "160000",
+          "manager_name": "Anita",
+          "manager_salary": "150000"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "case-02-managers": {
+    "hash": "fa21e3a9f44b498d235567f17daa97506b5481d9b7f76b1538a0c9490f9db152",
+    "rowCount": 2,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "2245cf18a38b38465444db9aa8ba3e7535d3c513502aa029b8f8173335a4f2d0",
+    "rowCount": 16,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "7d683e27376d561009832ea262cec0379bc203381f6b49a355651961314ca62f",
+    "rowCount": 17,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "5d7bbb94fe262c25b116ea5cec19731ddadd96fedd07ed12c75d29acf8ed4026",
+    "rowCount": 10,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "2c8b826c5ad0ba4fcb53a909223d63210d3993a70e8023b76d1dd1a3ce98d120",
+    "rowCount": 13,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "69151bffef52a7e445edc9974d61af3d73b08408575b4707ded15ccdff2c4fa5",
+    "rowCount": 15,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "00a3b6e0136bedaabc5895e4dd5f2127d73e9661719108235ead59720163d603",
+    "rowCount": 7639,
+    "columns": [
+      "name",
+      "salary",
+      "manager_name",
+      "manager_salary"
+    ],
+    "ms": 87
+  }
+}

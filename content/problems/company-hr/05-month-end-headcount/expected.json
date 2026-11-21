@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "data": "4235ffc1ffec13c3",
+    "solution": "505597cdaa301bda",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "7dc5292e5358472fe89b0b896c2a07461dd339a3a85e16ba991ba11b8750af96",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "month_end"
+        },
+        {
+          "name": "headcount"
+        }
+      ],
+      "rows": [
+        {
+          "month_end": "2024-01-31",
+          "headcount": "9"
+        },
+        {
+          "month_end": "2024-02-29",
+          "headcount": "10"
+        },
+        {
+          "month_end": "2024-03-31",
+          "headcount": "11"
+        },
+        {
+          "month_end": "2024-04-30",
+          "headcount": "11"
+        },
+        {
+          "month_end": "2024-05-31",
+          "headcount": "11"
+        },
+        {
+          "month_end": "2024-06-30",
+          "headcount": "10"
+        },
+        {
+          "month_end": "2024-07-31",
+          "headcount": "10"
+        },
+        {
+          "month_end": "2024-08-31",
+          "headcount": "10"
+        },
+        {
+          "month_end": "2024-09-30",
+          "headcount": "9"
+        },
+        {
+          "month_end": "2024-10-31",
+          "headcount": "9"
+        },
+        {
+          "month_end": "2024-11-30",
+          "headcount": "9"
+        },
+        {
+          "month_end": "2024-12-31",
+          "headcount": "9"
+        }
+      ],
+      "total": 12
+    }
+  },
+  "case-04-hire-and-leave-dates": {
+    "hash": "aa37d31c97c2b37a130f675661714f751c66d909856ce1fccd8d440559b4ab27",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "case-06-empty-months": {
+    "hash": "f0384d1faecc22f07bf05053e1b9d741efaa8c8cbd0d2001db6a8531f8a53f34",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "e5d9eb6d4e242246932c96de0348c82627c7a419ac08cbd2aaec55828e712f2c",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "0e2990591d76911b6475660de20ad82c255ba3c36666e744576200091e559156",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "26df0fce135bc97e813e826fbbfc5af5cbe9ee64bd8a64afad9a4632165c9a0d",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "251c9113f0ef6ebdbb39a0db8a9a5466638f553def5335efb637bea3fc3ed520",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "53a08a9f0e33659d2b963e7a568b9308b2ec3e084a2a2ea916b25d84ae5c70e9",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "98c92bb9e1d6cf83d98300f3ae696e254e253c09e66a5a3885e538269dafe9e1",
+    "rowCount": 12,
+    "columns": [
+      "month_end",
+      "headcount"
+    ],
+    "ms": 211
+  }
+}

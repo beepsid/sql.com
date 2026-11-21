@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "data": "b2fee623276513ca",
+    "solution": "dc61d8bc965b4a7e",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "a71b3a965350f3c8c901b767ad280ba24dd506ed745c6b39572271d016d6cebe",
+    "rowCount": 4,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "avg_days_between"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "1",
+          "avg_days_between": "31.0"
+        },
+        {
+          "customer_id": "2",
+          "avg_days_between": "51.0"
+        },
+        {
+          "customer_id": "4",
+          "avg_days_between": "0.0"
+        },
+        {
+          "customer_id": "6",
+          "avg_days_between": "40.0"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "bd17648a2c978a28311f592a46dbdcf5f748097d2aada10e794517b814301f8f",
+    "rowCount": 1,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 2
+  },
+  "case-07-order-sequence": {
+    "hash": "a5710636f12e2e3c9a63fecc3563e55779b4affaf153dc804988d190ed3a1106",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "1ceee01079849ad58efbc8b7b0cbf55a38dfeeee63b67bdcf7e61c1b70c57bd3",
+    "rowCount": 28,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "1252704d2b6dbf8cf367fc5ceafbfe60d4c124a0d6aab086ca6fa6e91fc3854f",
+    "rowCount": 25,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "6c9c8c025866594d75dd046afe01e01f89bc1e744d06cc9bd62e612a9465cd9f",
+    "rowCount": 28,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "e04cc180bc825711dcc32ab3d56f66fe7a65db74d9b67b98696ac37b805f26b0",
+    "rowCount": 28,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "924f0c3c951cdadca968c253803f3976751d006595af7724396f89cb1b5d61c7",
+    "rowCount": 27,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "002361083a19212c51e59eb2287fe1344b59bddb359ca976bd91797f8af16a29",
+    "rowCount": 14116,
+    "columns": [
+      "customer_id",
+      "avg_days_between"
+    ],
+    "ms": 154
+  }
+}

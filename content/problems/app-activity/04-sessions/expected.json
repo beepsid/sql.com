@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "data": "9d2c78188c70d20d",
+    "solution": "52669544a893bd68",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "0ab8c4e05124bc932ad9430fd4bfe470caa6444a1bd41377baf9fce8f2fce6cd",
+    "rowCount": 6,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 3,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "sessions"
+        },
+        {
+          "name": "avg_session_minutes"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "1",
+          "sessions": "5",
+          "avg_session_minutes": "10.0"
+        },
+        {
+          "user_id": "2",
+          "sessions": "4",
+          "avg_session_minutes": "0.0"
+        },
+        {
+          "user_id": "3",
+          "sessions": "2",
+          "avg_session_minutes": "15.0"
+        },
+        {
+          "user_id": "4",
+          "sessions": "5",
+          "avg_session_minutes": "6.0"
+        },
+        {
+          "user_id": "5",
+          "sessions": "2",
+          "avg_session_minutes": "0.0"
+        },
+        {
+          "user_id": "6",
+          "sessions": "2",
+          "avg_session_minutes": "0.0"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-03-session-boundaries": {
+    "hash": "6cb90cab3ac6ce4c7c7105d6a76773d8965a6e69f0061bb362cf1e834cd00bb3",
+    "rowCount": 3,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 3
+  },
+  "random-1": {
+    "hash": "6b1a66687c71c165eb71038ca44882baf70ae3480458a5c1cc9db8a815c1e2e0",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 5
+  },
+  "random-2": {
+    "hash": "b5175cc774e9ccced87770d3184e18010616c24c81a97e4861959e7551d7795e",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 10
+  },
+  "random-3": {
+    "hash": "afb6ee39783e0c92d4fd1bef37129c1f0b38f3f6160fa2a7f278b4c7a9bf345b",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 7
+  },
+  "random-4": {
+    "hash": "678461c272804fa53cc4e49dc6597dc6e3ad8309d8dea6ff92072db9d1250c1b",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 7
+  },
+  "random-5": {
+    "hash": "cf22fac0a326d60584a6fb7ba9415e9f0a49270fc078f9ae0325f8003ac9fe18",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 7
+  },
+  "large": {
+    "hash": "7b2306822e8c38cd74f915c8ca7cd6230bb1eef256944567f3e61d2c46d7a76a",
+    "rowCount": 3000,
+    "columns": [
+      "user_id",
+      "sessions",
+      "avg_session_minutes"
+    ],
+    "ms": 251
+  }
+}

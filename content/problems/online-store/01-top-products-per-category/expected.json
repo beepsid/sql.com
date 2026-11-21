@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "data": "03fe170dc106a1ae",
+    "solution": "11cf68801cd96a63",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "cddd1c5cc590f9e9bcd6dc902971291c80abd97b2d9c3284ffb9cdce503cc5f9",
+    "rowCount": 8,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 4,
+    "output": {
+      "fields": [
+        {
+          "name": "category"
+        },
+        {
+          "name": "product_name"
+        },
+        {
+          "name": "revenue"
+        }
+      ],
+      "rows": [
+        {
+          "category": "Accessories",
+          "product_name": "USB-C Hub",
+          "revenue": "120.00"
+        },
+        {
+          "category": "Accessories",
+          "product_name": "Wireless Mouse",
+          "revenue": "50.00"
+        },
+        {
+          "category": "Accessories",
+          "product_name": "Laptop Sleeve",
+          "revenue": "25.00"
+        },
+        {
+          "category": "Audio",
+          "product_name": "Noise Cancelling Headphones",
+          "revenue": "600.00"
+        },
+        {
+          "category": "Audio",
+          "product_name": "Earbuds",
+          "revenue": "320.00"
+        },
+        {
+          "category": "Audio",
+          "product_name": "Bluetooth Speaker",
+          "revenue": "160.00"
+        },
+        {
+          "category": "Laptops",
+          "product_name": "Pro 15 Laptop",
+          "revenue": "2950.00"
+        },
+        {
+          "category": "Laptops",
+          "product_name": "Air 13 Laptop",
+          "revenue": "1800.00"
+        }
+      ],
+      "total": 8
+    }
+  },
+  "case-01-revenue-ties": {
+    "hash": "6af667aef8b255c727b30b928376fe9824b13c83130a742faa0ac9be9ed97f9d",
+    "rowCount": 7,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 3
+  },
+  "case-02-non-completed-orders": {
+    "hash": "94fec65341fdb1a72f20c50f3c33d813c3321ff63a5bc377a266e2de0d84f685",
+    "rowCount": 2,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "db5bfc4992281bcb6755af595cff3d194cbbb2d33ba0fbabc115562463af5ae7",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 3
+  },
+  "random-2": {
+    "hash": "550ecef270eed85ea9621918dd9155fb9c72270725362c8c0293ac3122b7cd22",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 3
+  },
+  "random-3": {
+    "hash": "08048a2a5d40615e9b1277f6339600ac6e74d73ddcba53f3614ff1dbd58c5d1b",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "c1cf1eef98743b2dfe10330215bf050ddbd391e61b7516a0973ddbc82b53bb2e",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "9a8954285f5c5083ff01236fbe85c23c7ebf49751d02efe8adabb880175b02ab",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 3
+  },
+  "large": {
+    "hash": "225eda60f41a8491fe8df1707061c03ae52c73aa601a1b703564ab806e2745f0",
+    "rowCount": 15,
+    "columns": [
+      "category",
+      "product_name",
+      "revenue"
+    ],
+    "ms": 86
+  }
+}

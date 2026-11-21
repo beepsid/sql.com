@@ -1,0 +1,163 @@
+{
+  "_meta": {
+    "data": "6f8b3466d13e4d09",
+    "solution": "e275cb42bc6dc1af",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "892a0ccd0291e9c01aed3a902b8b590a8d02c57e3ec3a0dc426d82c01d0fc058",
+    "rowCount": 12,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4,
+    "output": {
+      "fields": [
+        {
+          "name": "activity_date"
+        },
+        {
+          "name": "dau"
+        },
+        {
+          "name": "avg_7d"
+        }
+      ],
+      "rows": [
+        {
+          "activity_date": "2026-03-01",
+          "dau": "2",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-02",
+          "dau": "3",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-03",
+          "dau": "3",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-04",
+          "dau": "2",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-05",
+          "dau": "3",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-06",
+          "dau": "1",
+          "avg_7d": null
+        },
+        {
+          "activity_date": "2026-03-07",
+          "dau": "1",
+          "avg_7d": "2.14"
+        },
+        {
+          "activity_date": "2026-03-08",
+          "dau": "1",
+          "avg_7d": "2.00"
+        },
+        {
+          "activity_date": "2026-03-09",
+          "dau": "1",
+          "avg_7d": "1.71"
+        },
+        {
+          "activity_date": "2026-03-10",
+          "dau": "0",
+          "avg_7d": "1.29"
+        },
+        {
+          "activity_date": "2026-03-11",
+          "dau": "1",
+          "avg_7d": "1.14"
+        },
+        {
+          "activity_date": "2026-03-12",
+          "dau": "1",
+          "avg_7d": "0.86"
+        }
+      ],
+      "total": 12
+    }
+  },
+  "case-05-empty-days": {
+    "hash": "14fa511a46e5f038270ec07730739d51534a53a12ad62260c282b760e2a0222b",
+    "rowCount": 12,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 3
+  },
+  "random-1": {
+    "hash": "0ec867b57460d88e72f01519b1ff308dee1d6f098cfa30162e85666d56d0e5c0",
+    "rowCount": 87,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4
+  },
+  "random-2": {
+    "hash": "99ea51b168a0f9de45dd3ab501bca7516757fc69bcc18628e221e3402b6f85b9",
+    "rowCount": 87,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4
+  },
+  "random-3": {
+    "hash": "4468867feb0044a648189bca750a51dd003aa9e67f4e760ca475629de0456d9b",
+    "rowCount": 84,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4
+  },
+  "random-4": {
+    "hash": "db8a4e2504065c2f9ace9e37b6ec269d240776ba466d88c6a8b4a3ff0edacca6",
+    "rowCount": 87,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4
+  },
+  "random-5": {
+    "hash": "c2c04c98661e60934524b1f7b9fb07a57fc4377211299d933b6ec92265f77893",
+    "rowCount": 83,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 4
+  },
+  "large": {
+    "hash": "41b96ffa8829983c769141a10d164200d2143465559e891489a7405de44046ab",
+    "rowCount": 91,
+    "columns": [
+      "activity_date",
+      "dau",
+      "avg_7d"
+    ],
+    "ms": 61
+  }
+}

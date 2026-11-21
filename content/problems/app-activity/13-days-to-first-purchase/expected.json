@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "53b722c68a33b041",
+    "solution": "bd56af840c02b2df",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "24591462c03e7aa4c0c83c06ed0c44d0a32f095abfb62942936659f2a445e0fd",
+    "rowCount": 3,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "days_to_first_purchase"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "1",
+          "days_to_first_purchase": "0"
+        },
+        {
+          "user_id": "3",
+          "days_to_first_purchase": "0"
+        },
+        {
+          "user_id": "4",
+          "days_to_first_purchase": "3"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-06-first-events-and-comebacks": {
+    "hash": "777a85a23a6eb1bbc2fffd44d4611bf3c64b50808ed5a664bf36b7f0c7c8d468",
+    "rowCount": 2,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "80d6e78f58dc74ec46e568da5a7b9ef4aa534a5b6cad2a6930fc964ff1445bf5",
+    "rowCount": 38,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "f3230591e69669db16da7b917f51ddbb311a71ddd355c7ef67963c408ad4b70d",
+    "rowCount": 38,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "c2f02fe8e1ebf09b4b5cdd8116b69262b923ab5931d98f3b0cc3c375d0c253d6",
+    "rowCount": 39,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "7270e27e35064e9fbbc814956b30a863d67d90955b93ba9cbf8aca13cb028643",
+    "rowCount": 39,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "7514ca55020d36e1aeb3f96bbebc508c44f7c7f1daa5f0329965d9b64f7b09aa",
+    "rowCount": 39,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "98ceea02811b141e6ff4e91ffbe7178966921920727953baf39dd03aa48fbb4f",
+    "rowCount": 2890,
+    "columns": [
+      "user_id",
+      "days_to_first_purchase"
+    ],
+    "ms": 36
+  }
+}

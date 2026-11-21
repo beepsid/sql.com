@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data": "b0a3dad450663469",
+    "solution": "d0012c8478446aa4",
+    "wrong": "e3b0c44298fc1c14"
+  },
+  "sample": {
+    "hash": "15ad7c6dad68a63141874c1d7f80c22bfb88f86c7c9e29eea852d2cbf51b422a",
+    "rowCount": 3,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "month"
+        },
+        {
+          "name": "buyers"
+        }
+      ],
+      "rows": [
+        {
+          "month": "2026-01-01",
+          "buyers": "3"
+        },
+        {
+          "month": "2026-02-01",
+          "buyers": "2"
+        },
+        {
+          "month": "2026-03-01",
+          "buyers": "4"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "d997b6cf0671c8d230721ebb1b4a233b89c616e9645614de191b0885381370f4",
+    "rowCount": 3,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "f684bfaece2aca07eb32b6c5a2825c4004f8ff2f99c2f8afa3536112950b8b8e",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "1d83c361633dbf968699251a4097b5e60e1cb392e3e06ae9bc98278ffaa89eb8",
+    "rowCount": 11,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "e2d7b31628dcf5242445edfe7ea1e75506fd6c716cf2568a4680dd308be640d5",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "4f507df650d42f8d8ee6eb55b74a81438c8f9f075fb4606e52cfd4a5521a8417",
+    "rowCount": 11,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "483e7a6ebc6e66358225ef297ccd9ef16b39f63ab07fddf9c53f70d2b780c042",
+    "rowCount": 12,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "43dc62e73165844c4a059bcf91c62ba2d06f3cf1e361d40bf43a000343d9397c",
+    "rowCount": 13,
+    "columns": [
+      "month",
+      "buyers"
+    ],
+    "ms": 44
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "data": "d84fdc2bbf68c47c",
+    "solution": "40900cd5fd86ffdf",
+    "wrong": "d492deca77f71da1"
+  },
+  "sample": {
+    "hash": "7849217f4074f65531c8533a5515c76190357635dfe50617055b0bfe615a6f23",
+    "rowCount": 9,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "salary"
+        },
+        {
+          "name": "salary_rank"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "dept_name": "Engineering",
+          "salary": "250000",
+          "salary_rank": "1"
+        },
+        {
+          "emp_id": "4",
+          "dept_name": "Engineering",
+          "salary": "160000",
+          "salary_rank": "2"
+        },
+        {
+          "emp_id": "2",
+          "dept_name": "Engineering",
+          "salary": "150000",
+          "salary_rank": "3"
+        },
+        {
+          "emp_id": "3",
+          "dept_name": "Engineering",
+          "salary": "95000",
+          "salary_rank": "4"
+        },
+        {
+          "emp_id": "5",
+          "dept_name": "Engineering",
+          "salary": "95000",
+          "salary_rank": "4"
+        },
+        {
+          "emp_id": "10",
+          "dept_name": "Finance",
+          "salary": "110000",
+          "salary_rank": "1"
+        },
+        {
+          "emp_id": "9",
+          "dept_name": "Sales",
+          "salary": "130000",
+          "salary_rank": "1"
+        },
+        {
+          "emp_id": "6",
+          "dept_name": "Sales",
+          "salary": "120000",
+          "salary_rank": "2"
+        },
+        {
+          "emp_id": "7",
+          "dept_name": "Sales",
+          "salary": "70000",
+          "salary_rank": "3"
+        }
+      ],
+      "total": 9
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "dae863b76e47a5b20941446e182fc99769f02c6860ea9e965c27979a8227b30a",
+    "rowCount": 7,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "951844b7a82bbe0d85906f8da54650051dd3f963b938d8f16cef8a75821a432d",
+    "rowCount": 31,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "116f107a51179b73c0b97b4fa15373f9973fafc710b164a51129f474fc13bc7e",
+    "rowCount": 34,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "6da81d997bab87c9b5416051efa76f3e17e579d14baac9b5cecd79dd2ec0ed5f",
+    "rowCount": 30,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "172c4ec05c5343007d6b29776d99bf39024e01da5e3b4d5672a3158a8770e534",
+    "rowCount": 26,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "12c5847fc88e7349db934db96309a9a8249624b9fbc79617bdc6fd387933a18b",
+    "rowCount": 32,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "0d51508185c98cabd682c080221f4e9284721bd788ea886d02120c88a5f8a034",
+    "rowCount": 15994,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "salary_rank"
+    ],
+    "ms": 162
+  }
+}

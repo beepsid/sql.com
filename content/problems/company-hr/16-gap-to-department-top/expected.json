@@ -1,0 +1,179 @@
+{
+  "_meta": {
+    "data": "5c57e9ff3de47f92",
+    "solution": "d9d9606097d45b4e",
+    "wrong": "74d6962beeebabc5"
+  },
+  "sample": {
+    "hash": "096bfd24be369e57e6276fb94a5cca8241ea953da7af86ae494c528ad2bab730",
+    "rowCount": 9,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "emp_id"
+        },
+        {
+          "name": "dept_name"
+        },
+        {
+          "name": "salary"
+        },
+        {
+          "name": "gap"
+        }
+      ],
+      "rows": [
+        {
+          "emp_id": "1",
+          "dept_name": "Engineering",
+          "salary": "250000",
+          "gap": "0"
+        },
+        {
+          "emp_id": "4",
+          "dept_name": "Engineering",
+          "salary": "160000",
+          "gap": "90000"
+        },
+        {
+          "emp_id": "2",
+          "dept_name": "Engineering",
+          "salary": "150000",
+          "gap": "100000"
+        },
+        {
+          "emp_id": "5",
+          "dept_name": "Engineering",
+          "salary": "95000",
+          "gap": "155000"
+        },
+        {
+          "emp_id": "3",
+          "dept_name": "Engineering",
+          "salary": "95000",
+          "gap": "155000"
+        },
+        {
+          "emp_id": "10",
+          "dept_name": "Finance",
+          "salary": "110000",
+          "gap": "0"
+        },
+        {
+          "emp_id": "9",
+          "dept_name": "Sales",
+          "salary": "130000",
+          "gap": "0"
+        },
+        {
+          "emp_id": "6",
+          "dept_name": "Sales",
+          "salary": "120000",
+          "gap": "10000"
+        },
+        {
+          "emp_id": "7",
+          "dept_name": "Sales",
+          "salary": "70000",
+          "gap": "60000"
+        }
+      ],
+      "total": 9
+    }
+  },
+  "case-01-ties-and-leavers": {
+    "hash": "3773ffd5b35054b5514bac1b10aee68ffa75c469e71214c98d0a2a3e244c63df",
+    "rowCount": 7,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 1
+  },
+  "case-07-anniversaries-and-same-day-hires": {
+    "hash": "8df9420606d5975089abea3e5427ac1924e0b832e4e2bbd77337dc9a9fbf5943",
+    "rowCount": 6,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "040f00d48eb4adcac4689a20663e46cf7577d573701ebd872183cbe7d34197e4",
+    "rowCount": 31,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "18c95b1d6dac0b68e23b92ff07411b11b61a2037085c3c31fbc5aa83b6986546",
+    "rowCount": 34,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "5272b9050a6cd23f6fa969ad25f224a7891d0536b29aee2293d1b53a117b6d42",
+    "rowCount": 30,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "baee73de73b66f5a31802c61a39b742b13853b444ce4283bf275ce06db7a6e50",
+    "rowCount": 26,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "5221eb8eaa4676d865a3bb90dc79f3f0462544e3205191c8ce4d49ea5054d50e",
+    "rowCount": 32,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "8a209e8ac61df517b929d6d51eb74fc0bcaf5d48fd6750915cb5ee1b6313e734",
+    "rowCount": 15994,
+    "columns": [
+      "emp_id",
+      "dept_name",
+      "salary",
+      "gap"
+    ],
+    "ms": 172
+  }
+}

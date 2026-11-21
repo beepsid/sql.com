@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "data": "b8a5586916495acb",
+    "solution": "e1fbfd194dcae9fa",
+    "wrong": "0dbf5f52f837d9c2"
+  },
+  "sample": {
+    "hash": "36758b56d5a00c1069dba466aca88513b943a62d84016db7f9c49077f12f189a",
+    "rowCount": 3,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 1,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "platform"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "2",
+          "platform": "android"
+        },
+        {
+          "user_id": "5",
+          "platform": "web"
+        },
+        {
+          "user_id": "6",
+          "platform": "android"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "random-1": {
+    "hash": "01944d129cdfe84c5ce349f3dd3cd3874968f8ae7bbbd6c593cfae2905282d21",
+    "rowCount": 2,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "3d952cc8d528ad812421f2851642cb19060cd50ee61c8859fa9828d6c39411e9",
+    "rowCount": 2,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 1
+  },
+  "random-3": {
+    "hash": "d868b2c125f4a1fcf7bb73e87120f36f4ad9e6a29c79a277818e62f000338e20",
+    "rowCount": 1,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "cfefa0ca60fe9e7acca7b096dfdbd1d0b28a600d7cb7912c7b4808d484a6baa7",
+    "rowCount": 1,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "6cbd4338c0d3aeb91f7cebb3ec88c7023cfa5360960c0cba79f26b019c4f3c5f",
+    "rowCount": 1,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "5fd2e47fbe2de8936dcf5806e30b7f83f3ad935479d7a8ae89a0e026c41c85ef",
+    "rowCount": 110,
+    "columns": [
+      "user_id",
+      "platform"
+    ],
+    "ms": 16
+  }
+}

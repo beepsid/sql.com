@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "4601f38a4d16d065",
+    "wrong": "a1d5f76c75657d6c"
+  },
+  "sample": {
+    "hash": "a7d8cff32da402f994c4895757300f4331010bca2e94b314c44a09795f695a41",
+    "rowCount": 5,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "country"
+        },
+        {
+          "name": "orders"
+        },
+        {
+          "name": "avg_order_value"
+        }
+      ],
+      "rows": [
+        {
+          "country": "AE",
+          "orders": "2",
+          "avg_order_value": "92.50"
+        },
+        {
+          "country": "BR",
+          "orders": "1",
+          "avg_order_value": "980.00"
+        },
+        {
+          "country": "CN",
+          "orders": "1",
+          "avg_order_value": "160.00"
+        },
+        {
+          "country": "IN",
+          "orders": "5",
+          "avg_order_value": "600.00"
+        },
+        {
+          "country": "US",
+          "orders": "2",
+          "avg_order_value": "850.00"
+        }
+      ],
+      "total": 5
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "a4e3a09357bf4e28a375451db6a001ba13b484dede27fcb5f29809fb2be794cd",
+    "rowCount": 2,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 2
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "06d53334559b6fe72d62fc8bcb3faf05cb65b5221f9f91df9c46ab44aa552dc1",
+    "rowCount": 1,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "154e64847b06bac2a8e77c7dbe24de8e676fa8f72d2db95dbe3f5459e096f96a",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "290a26aff73543943763825e92cd55b112c8d970218f66cb57007ac0f570ce95",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "eb6d6f051d3cd8ca3624c2f1118a33b18305004dcd0636a2d724651d4695d635",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "5337b8bc57e61950aa34dba72c0b5052cb71b991e2b8bf0a82da306c7647b77b",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 3
+  },
+  "random-5": {
+    "hash": "0a7ae78ee641e032344d379a38f29d8ef3ba67406dedaba50dba5246b35c33a8",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "54b1839c4b3029ce771501988ed3d98681974bd44d708e8a0461b5c04deee389",
+    "rowCount": 7,
+    "columns": [
+      "country",
+      "orders",
+      "avg_order_value"
+    ],
+    "ms": 191
+  }
+}

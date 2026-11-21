@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "d30591c923a3c152",
+    "wrong": "03b2602b9c5175d0"
+  },
+  "sample": {
+    "hash": "433143e21de131858859e7181cea4f477c456a148c668da62b9bc7f051cdc623",
+    "rowCount": 3,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "courier_id"
+        },
+        {
+          "name": "deliveries"
+        },
+        {
+          "name": "late"
+        },
+        {
+          "name": "late_pct"
+        }
+      ],
+      "rows": [
+        {
+          "courier_id": "1",
+          "deliveries": "7",
+          "late": "1",
+          "late_pct": "14.3"
+        },
+        {
+          "courier_id": "2",
+          "deliveries": "5",
+          "late": "1",
+          "late_pct": "20.0"
+        },
+        {
+          "courier_id": "3",
+          "deliveries": "6",
+          "late": "0",
+          "late_pct": "0.0"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "600f0d929087df2bd7469727cf8e0401cf639f9acd86fafac016d873299ef96e",
+    "rowCount": 2,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "512fd065a33ca8ea22568e62e339d064dc3c3020f3b51dcb08d753767e862780",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 1
+  },
+  "random-2": {
+    "hash": "c988ed3d542bd9828701b5394960679b449aaa18f27a3670a4a89489e9bb1468",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "b45e8c0cba9327fb76676e437b28ebad0923416b558c0c0e44b4c7b2ad756172",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "a91c90b0ae3e2774a5939c5693b65bb5569da4dc29b74e9c3254221fc534ecfb",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 1
+  },
+  "random-5": {
+    "hash": "6abd74e1b44cf03a6c166c390677f30a394d0c857bb9d31cafb7b45cbb554152",
+    "rowCount": 5,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "421a63c8b6f9978de68972308e1e13be5ace5747b2a7e9052e1752108aa6d51b",
+    "rowCount": 399,
+    "columns": [
+      "courier_id",
+      "deliveries",
+      "late",
+      "late_pct"
+    ],
+    "ms": 14
+  }
+}

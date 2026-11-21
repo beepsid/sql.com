@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "data": "53b722c68a33b041",
+    "solution": "da4f957f24f52a5e",
+    "wrong": "704f7f995479441f"
+  },
+  "sample": {
+    "hash": "66f343e749b717df280e27d72d18134112873f727abd33bc097a77168538ba3d",
+    "rowCount": 6,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "first_event_ts"
+        },
+        {
+          "name": "first_event_type"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "1",
+          "first_event_ts": "2026-03-01 09:00:00",
+          "first_event_type": "app_open"
+        },
+        {
+          "user_id": "2",
+          "first_event_ts": "2026-03-01 12:00:00",
+          "first_event_type": "app_open"
+        },
+        {
+          "user_id": "3",
+          "first_event_ts": "2026-03-02 18:00:00",
+          "first_event_type": "add_to_cart"
+        },
+        {
+          "user_id": "4",
+          "first_event_ts": "2026-03-03 10:00:00",
+          "first_event_type": "view_item"
+        },
+        {
+          "user_id": "5",
+          "first_event_ts": "2026-03-03 11:00:00",
+          "first_event_type": "app_open"
+        },
+        {
+          "user_id": "6",
+          "first_event_ts": "2026-03-05 15:00:00",
+          "first_event_type": "view_item"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-06-first-events-and-comebacks": {
+    "hash": "c40870320a7e48f2251e52e39bf2a64eebd7d867da3645138a24050f264de4f6",
+    "rowCount": 2,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "c1db0aab83406993891e17862939d4349e49651b44b96d17af1e84f9d3d2c073",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "1ce7a0987534eb5ac0a119775b9b7b6a66435016e017cdedfeb1ce83249f0e42",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 3
+  },
+  "random-3": {
+    "hash": "beb5dff60ffcd7d5dbe08a211c20a4f1b59eaf0d36fd713665e075899a215179",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "5bf9a490b5c4fa425708854e08abf94b03739752e4e8e7de2f49823a71246097",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 3
+  },
+  "random-5": {
+    "hash": "5310c5db55412ffbdfc44a2181843b4f0115ebea4f77ec5c0a0682b2ff5b8a7e",
+    "rowCount": 40,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 3
+  },
+  "large": {
+    "hash": "7601c574d5d9ef71682811e74bb2cf2303d830e1964ad3cfc2ffe695d6823276",
+    "rowCount": 3000,
+    "columns": [
+      "user_id",
+      "first_event_ts",
+      "first_event_type"
+    ],
+    "ms": 60
+  }
+}

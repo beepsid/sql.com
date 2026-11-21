@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "data": "53b722c68a33b041",
+    "solution": "3839f8b82f609c16",
+    "wrong": "7747a44f15471c9f"
+  },
+  "sample": {
+    "hash": "3df2f3e900f30d4eef7176f404f0d3768760a5edbeb974fc7eb0d81b2c0c1362",
+    "rowCount": 1,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "user_id"
+        },
+        {
+          "name": "comeback_date"
+        },
+        {
+          "name": "previous_active_date"
+        }
+      ],
+      "rows": [
+        {
+          "user_id": "5",
+          "comeback_date": "2026-03-11",
+          "previous_active_date": "2026-03-03"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-06-first-events-and-comebacks": {
+    "hash": "7c6da5444dbacf0ed399a562de405e34f519903474e7490bbd132a5bcb700a80",
+    "rowCount": 2,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "6bda9d44a8482900cbeba52e9e62f86c5bcd9e936a1a807c3bad735792e4ee07",
+    "rowCount": 11,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "b076154f786c3f28451fd143d4749f0ae6c4f1284c0c80bb6d5170c54037bad4",
+    "rowCount": 19,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "59fe3e8c61cb3f31b383e377a5eedab60067bdba2b135704d81b32a873af80c6",
+    "rowCount": 12,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 3
+  },
+  "random-4": {
+    "hash": "c0429be274f2a7b52457974312d1383a36343c8ea0dc8a44cbee9b39c2fb5365",
+    "rowCount": 10,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 3
+  },
+  "random-5": {
+    "hash": "c19a4ee4d28ace90a3cc2f31948c934b5fe991e5255556d32e1c640e14c16c9a",
+    "rowCount": 15,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 2
+  },
+  "large": {
+    "hash": "2716f3f994e241a5b3f8a9b6e03fbb6e1c47f50dc3457e562733a8c7ef9ab29f",
+    "rowCount": 949,
+    "columns": [
+      "user_id",
+      "comeback_date",
+      "previous_active_date"
+    ],
+    "ms": 84
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "data": "3204ceda2e11985e",
+    "solution": "ff6ea295e5c30724",
+    "wrong": "4bec349ca7456a7d"
+  },
+  "sample": {
+    "hash": "bab953bb76d82d52bff71b15ee76b6a5a601267d274f773f426d52b04be5587f",
+    "rowCount": 1,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "restaurant_id"
+        },
+        {
+          "name": "name"
+        },
+        {
+          "name": "rated_orders"
+        },
+        {
+          "name": "avg_rating"
+        }
+      ],
+      "rows": [
+        {
+          "restaurant_id": "1",
+          "name": "Spice Route",
+          "rated_orders": "4",
+          "avg_rating": "4.00"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "case-01-boundaries": {
+    "hash": "7ac21b450f0d3e05d1befb86a89f6dc9f6381c0cc02ee7f88809d2f343ec3feb",
+    "rowCount": 1,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-1": {
+    "hash": "15367239c8abb6443902fe7da3a407c35f7eecb0a50237c70df1215a6b700e61",
+    "rowCount": 5,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "48df75da07f5d46664c1b63f323cb24a93f0d62bd75bbcb7e2e58cd491d85600",
+    "rowCount": 3,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 2
+  },
+  "random-3": {
+    "hash": "84b815edff1d44a69023c7b25fcb1037a39ab3260e84941c68c3b3c54f787b52",
+    "rowCount": 5,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "random-4": {
+    "hash": "8698f64d60cb38b3bcf67b27d79c350b7bfd4f8b08bb4e499e8762517353f9e7",
+    "rowCount": 2,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "edfc95f7422384bd9cf0e2ca984c8c31f044950caad01b1cc120d57a1835e3cf",
+    "rowCount": 5,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 1
+  },
+  "large": {
+    "hash": "8ef3c08496dcf72a3e9b01dde680b0f87fdd3e20a91f58743403c82cc270d9bb",
+    "rowCount": 498,
+    "columns": [
+      "restaurant_id",
+      "name",
+      "rated_orders",
+      "avg_rating"
+    ],
+    "ms": 18
+  }
+}

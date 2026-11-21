@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "data": "028fece5455ec3a4",
+    "solution": "7597c90cd42092ce",
+    "wrong": "3b58a5f8cf33b7ee"
+  },
+  "sample": {
+    "hash": "f277b9b1ad92b201f0c12799a09cb9f206a9dfeb4b253d8c23a9d1e66295b55b",
+    "rowCount": 6,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 2,
+    "output": {
+      "fields": [
+        {
+          "name": "customer_id"
+        },
+        {
+          "name": "order_id"
+        },
+        {
+          "name": "order_total"
+        }
+      ],
+      "rows": [
+        {
+          "customer_id": "1",
+          "order_id": "101",
+          "order_total": "940.00"
+        },
+        {
+          "customer_id": "2",
+          "order_id": "104",
+          "order_total": "1500.00"
+        },
+        {
+          "customer_id": "3",
+          "order_id": "107",
+          "order_total": "160.00"
+        },
+        {
+          "customer_id": "4",
+          "order_id": "108",
+          "order_total": "1450.00"
+        },
+        {
+          "customer_id": "6",
+          "order_id": "112",
+          "order_total": "105.00"
+        },
+        {
+          "customer_id": "7",
+          "order_id": "113",
+          "order_total": "980.00"
+        }
+      ],
+      "total": 6
+    }
+  },
+  "case-02-non-completed-orders": {
+    "hash": "b8d8dd61792170e3e8c01a5a3a762c8d768f78b228f5d8b9879535c7590a95ca",
+    "rowCount": 3,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 1
+  },
+  "case-08-guests-ties-and-repeats": {
+    "hash": "708aff116d14114725ad66e631fd153660dda9b7def65b8f1ec3d65b7aa818fe",
+    "rowCount": 4,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 2
+  },
+  "random-1": {
+    "hash": "9ad6da0d7e5d6e05cec9fa589987717d760cf8545f5759173a442a2f43f35329",
+    "rowCount": 37,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 2
+  },
+  "random-2": {
+    "hash": "d739f754b4bd91d14eed0240c97226fd8e1861b13650398b345fb0eb15e0c9f2",
+    "rowCount": 37,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 3
+  },
+  "random-3": {
+    "hash": "450dc5ad500c29ca6b79d75c00c39bd38f750f13331869fa26e3f7a8510b8b0a",
+    "rowCount": 37,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 2
+  },
+  "random-4": {
+    "hash": "75ee6daf66318a68617ad39ad9e6529d526345428d1c9425046d4410c6b52f5b",
+    "rowCount": 36,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 2
+  },
+  "random-5": {
+    "hash": "8ad7aa8db0f445806b4a78b81331fcd0f2f5a68f4e5d55e36cca79c36ab6fb3d",
+    "rowCount": 38,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 3
+  },
+  "large": {
+    "hash": "6246fc19000234f6453d3a5681d79ed9902338f2b3cbea5d4c91cbf0d43a60f5",
+    "rowCount": 18804,
+    "columns": [
+      "customer_id",
+      "order_id",
+      "order_total"
+    ],
+    "ms": 280
+  }
+}
